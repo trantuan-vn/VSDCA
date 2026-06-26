@@ -1,0 +1,432 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:wsu="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:wsa="http://schemas.xmlsoap.org/ws/2004/08/addressing" xmlns:wsap="http://schemas.xmlsoap.org/ws/2004/08/addressing/policy" xmlns:wsp="http://schemas.xmlsoap.org/ws/2004/09/policy" xmlns:wsaw="http://www.w3.org/2006/05/addressing/wsdl" xmlns:msc="http://schemas.microsoft.com/ws/2005/12/wsdl/contract" xmlns:tns="http://tempuri.org/" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" xmlns:wsa10="http://www.w3.org/2005/08/addressing" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:wsam="http://www.w3.org/2007/05/addressing/metadata" name="HOSTWCFService" targetNamespace="http://tempuri.org/" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsp:Policy wsu:Id="NetTcpBinding_IWCF_policy">
+    <wsp:ExactlyOne>
+      <wsp:All>
+        <wsrm:RMAssertion xmlns:wsrm="http://schemas.xmlsoap.org/ws/2005/02/rm/policy">
+          <wsrm:InactivityTimeout Milliseconds="1800000">
+          </wsrm:InactivityTimeout>
+          <wsrm:AcknowledgementInterval Milliseconds="200">
+          </wsrm:AcknowledgementInterval>
+        </wsrm:RMAssertion>
+        <msb:BinaryEncoding xmlns:msb="http://schemas.microsoft.com/ws/06/2004/mspolicy/netbinary1">
+        </msb:BinaryEncoding>
+        <wsaw:UsingAddressing>
+        </wsaw:UsingAddressing>
+      </wsp:All>
+    </wsp:ExactlyOne>
+  </wsp:Policy>
+  <wsdl:types>
+    <xsd:schema targetNamespace="http://tempuri.org/Imports">
+      <xsd:import namespace="http://tempuri.org/" />
+      <xsd:import namespace="http://schemas.microsoft.com/2003/10/Serialization/" />
+      <xsd:import namespace="http://schemas.datacontract.org/2004/07/Sats.CommonLibrary" />
+      <xsd:import />
+    </xsd:schema>
+  </wsdl:types>
+  <wsdl:message name="IWCF_Connect_InputMessage">
+    <wsdl:part name="parameters" element="tns:Connect" />
+  </wsdl:message>
+  <wsdl:message name="IWCF_Connect_OutputMessage">
+    <wsdl:part name="parameters" element="tns:ConnectResponse" />
+  </wsdl:message>
+  <wsdl:message name="IWCF_Send_InputMessage">
+    <wsdl:part name="parameters" element="tns:Send" />
+  </wsdl:message>
+  <wsdl:message name="IWCF_Send_OutputMessage">
+    <wsdl:part name="parameters" element="tns:SendResponse" />
+  </wsdl:message>
+  <wsdl:message name="IWCF_SendCA_InputMessage">
+    <wsdl:part name="parameters" element="tns:SendCA" />
+  </wsdl:message>
+  <wsdl:message name="IWCF_SendCA_OutputMessage">
+    <wsdl:part name="parameters" element="tns:SendCAResponse" />
+  </wsdl:message>
+  <wsdl:message name="IWCF_SendAction_InputMessage">
+    <wsdl:part name="parameters" element="tns:SendAction" />
+  </wsdl:message>
+  <wsdl:message name="IWCF_SendAction_OutputMessage">
+    <wsdl:part name="parameters" element="tns:SendActionResponse" />
+  </wsdl:message>
+  <wsdl:message name="IWCF_GetServerRptExp_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetServerRptExp" />
+  </wsdl:message>
+  <wsdl:message name="IWCF_GetServerRptExp_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetServerRptExpResponse" />
+  </wsdl:message>
+  <wsdl:message name="IWCF_SendRpt_InputMessage">
+    <wsdl:part name="parameters" element="tns:SendRpt" />
+  </wsdl:message>
+  <wsdl:message name="IWCF_SendRpt_OutputMessage">
+    <wsdl:part name="parameters" element="tns:SendRptResponse" />
+  </wsdl:message>
+  <wsdl:message name="IWCF_SendExpRpt_InputMessage">
+    <wsdl:part name="parameters" element="tns:SendExpRpt" />
+  </wsdl:message>
+  <wsdl:message name="IWCF_SendExpRpt_OutputMessage">
+    <wsdl:part name="parameters" element="tns:SendExpRptResponse" />
+  </wsdl:message>
+  <wsdl:message name="IWCF_FetchRpt_InputMessage">
+    <wsdl:part name="parameters" element="tns:FetchRpt" />
+  </wsdl:message>
+  <wsdl:message name="IWCF_FetchRpt_OutputMessage">
+    <wsdl:part name="parameters" element="tns:FetchRptResponse" />
+  </wsdl:message>
+  <wsdl:message name="IWCF_SendRptCA_InputMessage">
+    <wsdl:part name="parameters" element="tns:SendRptCA" />
+  </wsdl:message>
+  <wsdl:message name="IWCF_SendRptCA_OutputMessage">
+    <wsdl:part name="parameters" element="tns:SendRptCAResponse" />
+  </wsdl:message>
+  <wsdl:message name="IWCF_SaveFileRptCA_InputMessage">
+    <wsdl:part name="parameters" element="tns:SaveFileRptCA" />
+  </wsdl:message>
+  <wsdl:message name="IWCF_SaveFileRptCA_OutputMessage">
+    <wsdl:part name="parameters" element="tns:SaveFileRptCAResponse" />
+  </wsdl:message>
+  <wsdl:message name="IWCF_SynSend_InputMessage">
+    <wsdl:part name="parameters" element="tns:SynSend" />
+  </wsdl:message>
+  <wsdl:message name="IWCF_SynSend_OutputMessage">
+    <wsdl:part name="parameters" element="tns:SynSendResponse" />
+  </wsdl:message>
+  <wsdl:message name="IWCF_Login_InputMessage">
+    <wsdl:part name="parameters" element="tns:Login" />
+  </wsdl:message>
+  <wsdl:message name="IWCF_Login_OutputMessage">
+    <wsdl:part name="parameters" element="tns:LoginResponse" />
+  </wsdl:message>
+  <wsdl:message name="IWCF_LoginCA_InputMessage">
+    <wsdl:part name="parameters" element="tns:LoginCA" />
+  </wsdl:message>
+  <wsdl:message name="IWCF_LoginCA_OutputMessage">
+    <wsdl:part name="parameters" element="tns:LoginCAResponse" />
+  </wsdl:message>
+  <wsdl:message name="IWCF_FileCA_InputMessage">
+    <wsdl:part name="parameters" element="tns:FileCA" />
+  </wsdl:message>
+  <wsdl:message name="IWCF_FileCA_OutputMessage">
+    <wsdl:part name="parameters" element="tns:FileCAResponse" />
+  </wsdl:message>
+  <wsdl:message name="IWCF_AfterLoginCA_InputMessage">
+    <wsdl:part name="parameters" element="tns:AfterLoginCA" />
+  </wsdl:message>
+  <wsdl:message name="IWCF_AfterLoginCA_OutputMessage">
+    <wsdl:part name="parameters" element="tns:AfterLoginCAResponse" />
+  </wsdl:message>
+  <wsdl:message name="IWCF_ChangePassword_InputMessage">
+    <wsdl:part name="parameters" element="tns:ChangePassword" />
+  </wsdl:message>
+  <wsdl:message name="IWCF_ChangePassword_OutputMessage">
+    <wsdl:part name="parameters" element="tns:ChangePasswordResponse" />
+  </wsdl:message>
+  <wsdl:message name="IWCF_GetTellerProfile_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetTellerProfile" />
+  </wsdl:message>
+  <wsdl:message name="IWCF_GetTellerProfile_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetTellerProfileResponse" />
+  </wsdl:message>
+  <wsdl:message name="IWCF_Disconnect_InputMessage">
+    <wsdl:part name="parameters" element="tns:Disconnect" />
+  </wsdl:message>
+  <wsdl:message name="IWCF_Disconnect_OutputMessage">
+    <wsdl:part name="parameters" element="tns:DisconnectResponse" />
+  </wsdl:message>
+  <wsdl:message name="IWCF_Receive_OutputCallbackMessage">
+    <wsdl:part name="parameters" element="tns:Receive" />
+  </wsdl:message>
+  <wsdl:message name="IWCF_ReceiveAction_OutputCallbackMessage">
+    <wsdl:part name="parameters" element="tns:ReceiveAction" />
+  </wsdl:message>
+  <wsdl:message name="IWCF_UserJoin_OutputCallbackMessage">
+    <wsdl:part name="parameters" element="tns:UserJoin" />
+  </wsdl:message>
+  <wsdl:message name="IWCF_UserLeave_OutputCallbackMessage">
+    <wsdl:part name="parameters" element="tns:UserLeave" />
+  </wsdl:message>
+  <wsdl:portType msc:usingSession="true" name="IWCF">
+    <wsdl:operation msc:isInitiating="true" msc:isTerminating="false" name="Connect">
+      <wsdl:input wsaw:Action="http://tempuri.org/IWCF/Connect" message="tns:IWCF_Connect_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IWCF/ConnectResponse" message="tns:IWCF_Connect_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation msc:isInitiating="true" msc:isTerminating="false" name="Send">
+      <wsdl:input wsaw:Action="http://tempuri.org/IWCF/Send" message="tns:IWCF_Send_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IWCF/SendResponse" message="tns:IWCF_Send_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation msc:isInitiating="true" msc:isTerminating="false" name="SendCA">
+      <wsdl:input wsaw:Action="http://tempuri.org/IWCF/SendCA" message="tns:IWCF_SendCA_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IWCF/SendCAResponse" message="tns:IWCF_SendCA_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation msc:isInitiating="true" msc:isTerminating="false" name="SendAction">
+      <wsdl:input wsaw:Action="http://tempuri.org/IWCF/SendAction" message="tns:IWCF_SendAction_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IWCF/SendActionResponse" message="tns:IWCF_SendAction_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation msc:isInitiating="true" msc:isTerminating="false" name="GetServerRptExp">
+      <wsdl:input wsaw:Action="http://tempuri.org/IWCF/GetServerRptExp" message="tns:IWCF_GetServerRptExp_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IWCF/GetServerRptExpResponse" message="tns:IWCF_GetServerRptExp_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation msc:isInitiating="true" msc:isTerminating="false" name="SendRpt">
+      <wsdl:input wsaw:Action="http://tempuri.org/IWCF/SendRpt" message="tns:IWCF_SendRpt_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IWCF/SendRptResponse" message="tns:IWCF_SendRpt_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation msc:isInitiating="true" msc:isTerminating="false" name="SendExpRpt">
+      <wsdl:input wsaw:Action="http://tempuri.org/IWCF/SendExpRpt" message="tns:IWCF_SendExpRpt_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IWCF/SendExpRptResponse" message="tns:IWCF_SendExpRpt_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation msc:isInitiating="true" msc:isTerminating="false" name="FetchRpt">
+      <wsdl:input wsaw:Action="http://tempuri.org/IWCF/FetchRpt" message="tns:IWCF_FetchRpt_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IWCF/FetchRptResponse" message="tns:IWCF_FetchRpt_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation msc:isInitiating="true" msc:isTerminating="false" name="SendRptCA">
+      <wsdl:input wsaw:Action="http://tempuri.org/IWCF/SendRptCA" message="tns:IWCF_SendRptCA_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IWCF/SendRptCAResponse" message="tns:IWCF_SendRptCA_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation msc:isInitiating="true" msc:isTerminating="false" name="SaveFileRptCA">
+      <wsdl:input wsaw:Action="http://tempuri.org/IWCF/SaveFileRptCA" message="tns:IWCF_SaveFileRptCA_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IWCF/SaveFileRptCAResponse" message="tns:IWCF_SaveFileRptCA_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation msc:isInitiating="true" msc:isTerminating="false" name="SynSend">
+      <wsdl:input wsaw:Action="http://tempuri.org/IWCF/SynSend" message="tns:IWCF_SynSend_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IWCF/SynSendResponse" message="tns:IWCF_SynSend_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation msc:isInitiating="true" msc:isTerminating="false" name="Login">
+      <wsdl:input wsaw:Action="http://tempuri.org/IWCF/Login" message="tns:IWCF_Login_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IWCF/LoginResponse" message="tns:IWCF_Login_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation msc:isInitiating="true" msc:isTerminating="false" name="LoginCA">
+      <wsdl:input wsaw:Action="http://tempuri.org/IWCF/LoginCA" message="tns:IWCF_LoginCA_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IWCF/LoginCAResponse" message="tns:IWCF_LoginCA_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation msc:isInitiating="true" msc:isTerminating="false" name="FileCA">
+      <wsdl:input wsaw:Action="http://tempuri.org/IWCF/FileCA" message="tns:IWCF_FileCA_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IWCF/FileCAResponse" message="tns:IWCF_FileCA_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation msc:isInitiating="true" msc:isTerminating="false" name="AfterLoginCA">
+      <wsdl:input wsaw:Action="http://tempuri.org/IWCF/AfterLoginCA" message="tns:IWCF_AfterLoginCA_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IWCF/AfterLoginCAResponse" message="tns:IWCF_AfterLoginCA_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation msc:isInitiating="true" msc:isTerminating="false" name="ChangePassword">
+      <wsdl:input wsaw:Action="http://tempuri.org/IWCF/ChangePassword" message="tns:IWCF_ChangePassword_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IWCF/ChangePasswordResponse" message="tns:IWCF_ChangePassword_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation msc:isInitiating="true" msc:isTerminating="false" name="GetTellerProfile">
+      <wsdl:input wsaw:Action="http://tempuri.org/IWCF/GetTellerProfile" message="tns:IWCF_GetTellerProfile_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IWCF/GetTellerProfileResponse" message="tns:IWCF_GetTellerProfile_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation msc:isInitiating="true" msc:isTerminating="false" name="Disconnect">
+      <wsdl:input wsaw:Action="http://tempuri.org/IWCF/Disconnect" message="tns:IWCF_Disconnect_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IWCF/DisconnectResponse" message="tns:IWCF_Disconnect_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation msc:isInitiating="true" msc:isTerminating="false" name="Receive">
+      <wsdl:output wsaw:Action="http://tempuri.org/IWCF/Receive" message="tns:IWCF_Receive_OutputCallbackMessage" />
+    </wsdl:operation>
+    <wsdl:operation msc:isInitiating="true" msc:isTerminating="false" name="ReceiveAction">
+      <wsdl:output wsaw:Action="http://tempuri.org/IWCF/ReceiveAction" message="tns:IWCF_ReceiveAction_OutputCallbackMessage" />
+    </wsdl:operation>
+    <wsdl:operation msc:isInitiating="true" msc:isTerminating="false" name="UserJoin">
+      <wsdl:output wsaw:Action="http://tempuri.org/IWCF/UserJoin" message="tns:IWCF_UserJoin_OutputCallbackMessage" />
+    </wsdl:operation>
+    <wsdl:operation msc:isInitiating="true" msc:isTerminating="false" name="UserLeave">
+      <wsdl:output wsaw:Action="http://tempuri.org/IWCF/UserLeave" message="tns:IWCF_UserLeave_OutputCallbackMessage" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="NetTcpBinding_IWCF" type="tns:IWCF">
+    <wsp:PolicyReference URI="#NetTcpBinding_IWCF_policy">
+    </wsp:PolicyReference>
+    <soap12:binding transport="http://schemas.microsoft.com/soap/tcp" />
+    <wsdl:operation name="Connect">
+      <soap12:operation soapAction="http://tempuri.org/IWCF/Connect" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Send">
+      <soap12:operation soapAction="http://tempuri.org/IWCF/Send" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="SendCA">
+      <soap12:operation soapAction="http://tempuri.org/IWCF/SendCA" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="SendAction">
+      <soap12:operation soapAction="http://tempuri.org/IWCF/SendAction" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetServerRptExp">
+      <soap12:operation soapAction="http://tempuri.org/IWCF/GetServerRptExp" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="SendRpt">
+      <soap12:operation soapAction="http://tempuri.org/IWCF/SendRpt" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="SendExpRpt">
+      <soap12:operation soapAction="http://tempuri.org/IWCF/SendExpRpt" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="FetchRpt">
+      <soap12:operation soapAction="http://tempuri.org/IWCF/FetchRpt" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="SendRptCA">
+      <soap12:operation soapAction="http://tempuri.org/IWCF/SendRptCA" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="SaveFileRptCA">
+      <soap12:operation soapAction="http://tempuri.org/IWCF/SaveFileRptCA" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="SynSend">
+      <soap12:operation soapAction="http://tempuri.org/IWCF/SynSend" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Login">
+      <soap12:operation soapAction="http://tempuri.org/IWCF/Login" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="LoginCA">
+      <soap12:operation soapAction="http://tempuri.org/IWCF/LoginCA" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="FileCA">
+      <soap12:operation soapAction="http://tempuri.org/IWCF/FileCA" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="AfterLoginCA">
+      <soap12:operation soapAction="http://tempuri.org/IWCF/AfterLoginCA" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ChangePassword">
+      <soap12:operation soapAction="http://tempuri.org/IWCF/ChangePassword" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetTellerProfile">
+      <soap12:operation soapAction="http://tempuri.org/IWCF/GetTellerProfile" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Disconnect">
+      <soap12:operation soapAction="http://tempuri.org/IWCF/Disconnect" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Receive">
+      <soap12:operation soapAction="http://tempuri.org/IWCF/Receive" style="document" />
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ReceiveAction">
+      <soap12:operation soapAction="http://tempuri.org/IWCF/ReceiveAction" style="document" />
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="UserJoin">
+      <soap12:operation soapAction="http://tempuri.org/IWCF/UserJoin" style="document" />
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="UserLeave">
+      <soap12:operation soapAction="http://tempuri.org/IWCF/UserLeave" style="document" />
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="HOSTWCFService">
+    <wsdl:port name="NetTcpBinding_IWCF" binding="tns:NetTcpBinding_IWCF">
+      <soap12:address location="net.tcp://localhost:8200/host" />
+      <wsa10:EndpointReference>
+        <wsa10:Address>net.tcp://localhost:8200/host</wsa10:Address>
+      </wsa10:EndpointReference>
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>

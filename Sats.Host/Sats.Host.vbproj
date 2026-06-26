@@ -1,0 +1,206 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="3.5" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.21022</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{0A1DD88D-B179-4376-B230-8B017E0BA105}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <RootNamespace>Sats.Host</RootNamespace>
+    <AssemblyName>Sats.Host</AssemblyName>
+    <FileAlignment>512</FileAlignment>
+    <MyType>Windows</MyType>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <OptionExplicit>On</OptionExplicit>
+    <OptionCompare>Binary</OptionCompare>
+    <OptionStrict>Off</OptionStrict>
+    <OptionInfer>On</OptionInfer>
+    <SignAssembly>true</SignAssembly>
+    <AssemblyOriginatorKeyFile>sats.snk</AssemblyOriginatorKeyFile>
+    <SccProjectName>
+    </SccProjectName>
+    <SccLocalPath>
+    </SccLocalPath>
+    <SccAuxPath>
+    </SccAuxPath>
+    <SccProvider>
+    </SccProvider>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+    <OldToolsVersion>3.5</OldToolsVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DocumentationFile>Sats.Host.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022,42353,42354,42355</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DocumentationFile>Sats.Host.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022,42353,42354,42355</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x64' ">
+    <PlatformTarget>x64</PlatformTarget>
+    <OutputPath>bin\x64\Debug\</OutputPath>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x64' ">
+    <PlatformTarget>x64</PlatformTarget>
+    <OutputPath>bin\x64\Release\</OutputPath>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="BkavCAPlugIn_New, Version=1.0.0.6, Culture=neutral, PublicKeyToken=66b45ab37bb37a36, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\DEPLOYMENT\COM\BkavCAPlugIn_New.dll</HintPath>
+    </Reference>
+    <Reference Include="SendFiles, Version=1.0.2506.19176, Culture=neutral, PublicKeyToken=db0cffc473b0c41d">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\DEPLOYMENT\COM\SendFiles.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.configuration" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.EnterpriseServices" />
+    <Reference Include="System.ServiceModel">
+      <RequiredTargetFramework>3.0</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Core">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Xml.Linq">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data.DataSetExtensions">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Collections.Generic" />
+    <Import Include="System.Data" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Linq" />
+    <Import Include="System.Xml.Linq" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="CacheData.vb" />
+    <Compile Include="HOSTReport.vb" />
+    <Compile Include="My Project\AssemblyInfo.vb" />
+    <Compile Include="My Project\Application.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Application.myapp</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Resources.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Settings.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="objRouter.vb" />
+    <Compile Include="SystemAdmin.vb" />
+    <Compile Include="txRouter.vb" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="My Project\Resources.resx">
+      <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Application.myapp">
+      <Generator>MyApplicationCodeGenerator</Generator>
+      <LastGenOutput>Application.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="My Project\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <CustomToolNamespace>My</CustomToolNamespace>
+      <LastGenOutput>Settings.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="sats.snk" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Sats.CA\Sats.CA.vbproj">
+      <Project>{0B45D491-6275-4CAB-94BE-221C315D4CDF}</Project>
+      <Name>Sats.CA</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Sats.CommonLibrary\Sats.CommonLibrary.vbproj">
+      <Project>{C138351F-E4D5-4512-A868-678035EF592D}</Project>
+      <Name>Sats.CommonLibrary</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Sats.CoreBusiness\Sats.CoreBusiness.vbproj">
+      <Project>{46AD4DE5-49D0-49E3-8F88-4B8D22B98E0C}</Project>
+      <Name>Sats.CoreBusiness</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Sats.CS\Sats.CS.vbproj">
+      <Project>{4241C75C-CCDF-43C3-AEFC-D9C83BCDD1AF}</Project>
+      <Name>Sats.CS</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Sats.DataAccessLayer\Sats.DataAccessLayer.vbproj">
+      <Project>{E4EB4916-DCB8-42DA-85CB-CD2010423702}</Project>
+      <Name>Sats.DataAccessLayer</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Sats.DE\Sats.DE.vbproj">
+      <Project>{111A6285-034E-4B1C-85C1-EC3C6734CC3B}</Project>
+      <Name>Sats.DE</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Sats.HOSTChannel\Sats.HOSTChannel.vbproj">
+      <Project>{D9901610-9323-40CB-9C6D-D04A5370245A}</Project>
+      <Name>Sats.HOSTChannel</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Sats.MF\Sats.MF.vbproj">
+      <Project>{E58DD386-DB54-46D4-A222-964FB96B20B3}</Project>
+      <Name>Sats.MF</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Sats.RG\Sats.RG.vbproj">
+      <Project>{DB8A2309-8B57-4F25-B210-46B79DD17C4E}</Project>
+      <Name>Sats.RG</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Sats.RP\Sats.RP.vbproj">
+      <Project>{6FFDFC7D-AA91-45EA-9C1F-7A80CA6A25B1}</Project>
+      <Name>Sats.RP</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Sats.SA\Sats.SA.vbproj">
+      <Project>{479A6871-56E1-4C1B-8574-23734A2050C2}</Project>
+      <Name>Sats.SA</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Sats.ServerCA\Sats.ServerCA.vbproj">
+      <Project>{55E6E2AF-DAB5-44BB-BA8C-33FE4BF1F30F}</Project>
+      <Name>Sats.ServerCA</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Sats.SF\Sats.SF.vbproj">
+      <Project>{0FCC375F-7B94-405D-906D-14C62026FF19}</Project>
+      <Name>Sats.SF</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Sats.Utils\Sats.Utils.csproj">
+      <Project>{20A31C06-9280-4C80-BBCA-17DB78CDB706}</Project>
+      <Name>Sats.Utils</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

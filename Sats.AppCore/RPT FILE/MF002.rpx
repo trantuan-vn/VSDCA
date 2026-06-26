@@ -1,0 +1,136 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ActiveReportsLayout Version="3.1" PrintWidth="10350" DocumentName="ARNet Document" ScriptLang="VB.NET" MasterReport="0">
+  <StyleSheet>
+    <Style Name="Normal" Value="font-family: Arial; font-style: normal; text-decoration: none; font-weight: normal; font-size: 10pt; color: Black; ddo-char-set: 204; " />
+    <Style Name="Heading1" Value="font-size: 16pt; font-weight: bold; " />
+    <Style Name="Heading2" Value="font-family: Times New Roman; font-size: 14pt; font-weight: bold; font-style: italic; " />
+    <Style Name="Heading3" Value="font-size: 13pt; font-weight: bold; " />
+  </StyleSheet>
+  <Sections>
+    <Section Type="GroupHeader" Name="GroupHeader1" Height="15165" DataField="MINAME" ColumnLayout="0" BackColor="16777215" KeepTogether="1">
+      <Control Type="AR.Field" Name="txtFEE_MGTN_LK" DataField="A03" Left="6570" Top="4770" Width="2070" Height="270" Text="FEE_MGTN_LK" OutputFormat="#,##0" Style="text-align: right; font-size: 9.75pt; font-family: Times New Roman; " />
+      <Control Type="AR.Field" Name="TextBox7" DataField="A01" Left="2610" Top="4770" Width="1890" Height="270" Text="CP_MGTN_LK" OutputFormat="#,##0" Style="text-align: right; font-size: 9.75pt; font-family: Times New Roman; " />
+      <Control Type="AR.Field" Name="TextBox8" DataField="A02" Left="4770" Top="4770" Width="1620" Height="270" Text="TP_MGTN_LK" OutputFormat="#,##0" Style="text-align: right; font-size: 9.75pt; font-family: Times New Roman; " />
+      <Control Type="AR.Label" Name="Label12" Left="4770" Top="4320" Width="1440" Height="270" Caption="Trái phiếu" Style="ddo-char-set: 163; text-decoration: none; font-weight: bold; font-style: normal; font-size: 9.75pt; font-family: Times New Roman; " />
+      <Control Type="AR.Label" Name="Label11" Left="2430" Top="4320" Width="2070" Height="270" Caption="Cổ phiếu, chứng chỉ quỹ" Style="ddo-char-set: 163; text-decoration: none; font-weight: bold; font-style: normal; font-size: 9.75pt; font-family: Times New Roman; " />
+      <Control Type="AR.Label" Name="Label63" Left="180" Top="4770" Width="2070" Height="270" Caption="Môi giới trong nước" Style="text-decoration: none; ddo-char-set: 163; font-weight: bold; font-style: normal; font-size: 9.75pt; font-family: Times New Roman; " />
+      <Control Type="AR.Label" Name="Label1" Left="90" Top="3330" Width="1800" Height="360" Caption="I. Phí lưu ký " Style="ddo-char-set: 163; text-decoration: underline; font-weight: bold; font-style: normal; font-size: 12pt; font-family: Times New Roman; " />
+      <Control Type="AR.Line" Name="Line3" X1="90" Y1="4680" X2="9900" Y2="4680" />
+      <Control Type="AR.Line" Name="Line4" X1="90" Y1="5040" X2="9900" Y2="5040" />
+      <Control Type="AR.Line" Name="Line8" X1="90" Y1="3870" X2="90" Y2="6480" />
+      <Control Type="AR.Line" Name="Line9" X1="2340" Y1="3870" X2="2340" Y2="6120" />
+      <Control Type="AR.Line" Name="Line10" X1="9900" Y1="3870" X2="9900" Y2="6480" />
+      <Control Type="AR.Line" Name="Line11" X1="8730" Y1="3870" X2="8730" Y2="6120" />
+      <Control Type="AR.Line" Name="Line12" X1="6480" Y1="3870" X2="6480" Y2="6120" />
+      <Control Type="AR.Line" Name="Line14" X1="4590" Y1="4230" X2="4590" Y2="6120" />
+      <Control Type="AR.Field" Name="txtCP_MGNN_LK" DataField="A04" Left="2610" Top="5130" Width="1890" Height="270" Text="CP_MGNN_LK" OutputFormat="#,##0" Style="text-align: right; font-size: 9.75pt; font-family: Times New Roman; " />
+      <Control Type="AR.Field" Name="txtCP_TD_LK" DataField="A07" Left="2520" Top="5490" Width="1980" Height="270" Text="CP_TD_LK" OutputFormat="#,##0" Style="text-align: right; font-size: 9.75pt; font-family: Times New Roman; " />
+      <Control Type="AR.Field" Name="txtSUM_CP_LK" DataField="SUM_CP_LK" Left="2520" Top="5850" Width="1980" Height="270" Text="SUM_CP_LK" OutputFormat="#,##0" Style="ddo-char-set: 1; text-align: right; font-weight: bold; font-size: 9.75pt; font-family: Times New Roman; " />
+      <Control Type="AR.Field" Name="txtTP_MGNN_LK" DataField="A05" Left="4770" Top="5130" Width="1620" Height="270" Text="TP_MGNN_LK" OutputFormat="#,##0" Style="text-align: right; font-size: 9.75pt; font-family: Times New Roman; " />
+      <Control Type="AR.Field" Name="txtTP_TD_LK" DataField="A08" Left="4770" Top="5490" Width="1620" Height="270" Text="TP_TD_LK" OutputFormat="#,##0" Style="text-align: right; font-size: 9.75pt; font-family: Times New Roman; " />
+      <Control Type="AR.Field" Name="txtSUM_TP_LK" DataField="SUM_TP_LK" Left="4770" Top="5850" Width="1620" Height="270" Text="SUM_TP_LK" OutputFormat="#,##0" Style="ddo-char-set: 1; text-align: right; font-weight: bold; font-size: 9.75pt; font-family: Times New Roman; " />
+      <Control Type="AR.Label" Name="Label13" Left="7110" Top="4140" Width="990" Height="360" Caption="Phí lưu ký " Style="text-decoration: none; ddo-char-set: 163; font-weight: bold; font-style: normal; font-size: 9.75pt; font-family: Times New Roman; " />
+      <Control Type="AR.Label" Name="Label14" Left="8820" Top="4140" Width="990" Height="360" Caption="Ghi chú" Style="ddo-char-set: 163; text-decoration: none; font-weight: bold; font-style: normal; font-size: 9.75pt; font-family: Times New Roman; " />
+      <Control Type="AR.Field" Name="txtFEE_MGNN_LK" DataField="A06" Left="6570" Top="5130" Width="2070" Height="270" Text="FEE_MGNN_LK" OutputFormat="#,##0" Style="text-align: right; font-size: 9.75pt; font-family: Times New Roman; " />
+      <Control Type="AR.Field" Name="TXTFEE_TD_LK" DataField="A09" Left="6570" Top="5490" Width="2070" Height="270" Text="FEE_TD_LK" OutputFormat="#,##0" Style="text-align: right; font-size: 9.75pt; font-family: Times New Roman; " />
+      <Control Type="AR.Field" Name="TXTSUM_FEE_LK" DataField="SUM_FEE_LK" Left="6570" Top="5850" Width="2070" Height="270" Text="SUM_FEE_LK" OutputFormat="#,##0" Style="ddo-char-set: 1; text-align: right; font-weight: bold; font-size: 9.75pt; font-family: Times New Roman; " />
+      <Control Type="AR.Label" Name="Label15" Left="90" Top="6930" Width="2430" Height="270" Caption="II. Phí chuyển khoản" Style="ddo-char-set: 163; text-decoration: underline; font-weight: bold; font-style: normal; font-size: 12pt; font-family: Times New Roman; " />
+      <Control Type="AR.Line" Name="Line7" X1="90" Y1="7470" X2="9900" Y2="7470" />
+      <Control Type="AR.Line" Name="Line19" X1="90" Y1="7470" X2="90" Y2="9270" />
+      <Control Type="AR.Line" Name="Line20" X1="2340" Y1="7470" X2="2340" Y2="8910" />
+      <Control Type="AR.Line" Name="Line21" X1="5760" Y1="7470" X2="5760" Y2="8910" />
+      <Control Type="AR.Line" Name="Line22" X1="8640" Y1="7470" X2="8640" Y2="8910" />
+      <Control Type="AR.Line" Name="Line23" X1="9900" Y1="7470" X2="9900" Y2="9270" />
+      <Control Type="AR.Label" Name="Label9" Left="8730" Top="7560" Width="990" Height="270" Caption="Ghi chú" Style="ddo-char-set: 163; text-decoration: none; font-weight: bold; font-style: normal; font-size: 9.75pt; font-family: Times New Roman; " />
+      <Control Type="AR.Label" Name="Label16" Left="180" Top="8640" Width="2070" Height="270" Caption="Tổng cộng:" Style="text-decoration: underline; ddo-char-set: 163; font-weight: bold; font-style: normal; font-size: 9.75pt; font-family: Times New Roman; " />
+      <Control Type="AR.Label" Name="Label17" Left="180" Top="7920" Width="2070" Height="270" Caption="CK Thanh toán bù trừ" Style="ddo-char-set: 163; text-decoration: none; font-weight: bold; font-style: normal; font-size: 9.75pt; font-family: Times New Roman; " />
+      <Control Type="AR.Label" Name="Label18" Left="180" Top="8280" Width="2070" Height="270" Caption="CK Tất toán tài khoản" Style="ddo-char-set: 163; text-decoration: none; font-weight: bold; font-style: normal; font-size: 9.75pt; font-family: Times New Roman; " />
+      <Control Type="AR.Label" Name="Label19" Left="450" Top="7560" Width="1800" Height="270" Caption="Loại chuyển khoản" Style="ddo-char-set: 163; text-decoration: none; font-weight: bold; font-style: normal; font-size: 9.75pt; font-family: Times New Roman; " />
+      <Control Type="AR.Label" Name="Label20" Left="3600" Top="7560" Width="810" Height="270" Caption="Số lượng" Style="text-decoration: none; ddo-char-set: 163; font-weight: bold; font-style: normal; font-size: 9.75pt; font-family: Times New Roman; " />
+      <Control Type="AR.Label" Name="Label21" Left="6390" Top="7560" Width="1800" Height="270" Caption="Phí chuyển khoản" Style="text-decoration: none; ddo-char-set: 163; font-weight: bold; font-style: normal; font-size: 9.75pt; font-family: Times New Roman; " />
+      <Control Type="AR.Field" Name="txtTTBT_BAL" DataField="A11" Left="2970" Top="7920" Width="2700" Height="270" Text="TTBT_BAL" OutputFormat="#,##0" Style="text-align: right; font-size: 9.75pt; font-family: Times New Roman; " />
+      <Control Type="AR.Field" Name="txtTTTK_BAL" DataField="A13" Left="3600" Top="8280" Width="2070" Height="270" Text="TTTK_BAL" OutputFormat="#,##0" Style="text-align: right; font-size: 9.75pt; font-family: Times New Roman; " />
+      <Control Type="AR.Field" Name="txtTTBT_FEE" DataField="A12" Left="6030" Top="7920" Width="2520" Height="270" Text="TTBT_FEE" OutputFormat="#,##0" Style="text-align: right; font-size: 9.75pt; font-family: Times New Roman; " />
+      <Control Type="AR.Field" Name="txtTTTK_FEE" DataField="A14" Left="6480" Top="8280" Width="2070" Height="270" Text="TTTK_FEE" OutputFormat="#,##0" Style="text-align: right; font-size: 9.75pt; font-family: Times New Roman; " />
+      <Control Type="AR.Field" Name="txtSUM_CK" DataField="A15" Left="2970" Top="8640" Width="2700" Height="270" Text="SUM_CK" OutputFormat="#,##0" Style="ddo-char-set: 1; text-align: right; font-weight: bold; font-size: 9.75pt; font-family: Times New Roman; " />
+      <Control Type="AR.Field" Name="txtSUM_CK_FEE" DataField="A16" Left="6030" Top="8640" Width="2520" Height="270" Text="SUM_CK_FEE" OutputFormat="#,##0" Style="ddo-char-set: 1; text-align: right; font-weight: bold; font-size: 9.75pt; font-family: Times New Roman; " />
+      <Control Type="AR.Label" Name="Label22" Left="1080" Top="720" Width="1710" Height="270" Caption="Số: ........./TB-VSD" Style="text-decoration: none; ddo-char-set: 163; font-weight: normal; font-style: normal; font-size: 9.75pt; font-family: Times New Roman; " />
+      <Control Type="AR.Label" Name="Label23" Left="810" Top="990" Width="1620" Height="270" Caption="V/v: Thu phí tháng " Style="ddo-char-set: 163; text-decoration: none; font-weight: normal; font-style: normal; font-size: 9.75pt; font-family: Times New Roman; " />
+      <Control Type="AR.Label" Name="Label26" Left="3472.5" Top="1440" Width="3330" Height="360" Caption="THÔNG BÁO THU PHÍ" Style="ddo-char-set: 163; text-decoration: none; font-weight: bold; font-style: normal; font-size: 14.25pt; font-family: Times New Roman; " />
+      <Control Type="AR.Label" Name="Label27" Left="1440" Top="1980" Width="1080" Height="360" Caption="Kính gửi:" Style="text-decoration: underline; ddo-char-set: 1; font-weight: normal; font-style: normal; font-size: 12pt; font-family: Times New Roman; " />
+      <Control Type="AR.Field" Name="txtMINAME" DataField="MINAME" Left="2520" Top="1980" Width="7020" Height="360" Text="MINAME" RightToLeft="1" Style="ddo-char-set: 163; text-align: right; font-weight: normal; font-size: 12pt; font-family: Times New Roman; " />
+      <Control Type="AR.Label" Name="Label28" Left="7650" Top="3510" Width="2250" Height="270" Caption="(Đơn vị tính: đồng)" Style="ddo-char-set: 163; text-decoration: none; font-weight: normal; font-style: normal; font-size: 9.75pt; font-family: Times New Roman; " RightToLeft="1" />
+      <Control Type="AR.Label" Name="Label29" Left="90" Top="9720" Width="3510" Height="360" Caption="III. Phí xử lý lỗi giao dịch:" Style="ddo-char-set: 163; text-decoration: underline; font-weight: bold; font-style: normal; font-size: 12pt; font-family: Times New Roman; " />
+      <Control Type="AR.Line" Name="Line26" X1="90" Y1="10170" X2="90" Y2="10890" />
+      <Control Type="AR.Line" Name="Line27" X1="2340" Y1="10170" X2="2340" Y2="10530" />
+      <Control Type="AR.Line" Name="Line28" X1="4950" Y1="10170" X2="4950" Y2="10530" />
+      <Control Type="AR.Line" Name="Line29" X1="9900" Y1="10170" X2="9900" Y2="10890" />
+      <Control Type="AR.Label" Name="Label30" Left="180" Top="10260" Width="2070" Height="270" Caption="Số giao dịch lỗi" Style="ddo-char-set: 163; text-decoration: none; font-weight: bold; font-style: normal; font-size: 9.75pt; font-family: Times New Roman; " />
+      <Control Type="AR.Label" Name="Label31" Left="5040" Top="10260" Width="1890" Height="270" Caption="Phí sửa lỗi (đồng):" Style="text-decoration: none; ddo-char-set: 163; font-weight: bold; font-style: normal; font-size: 9.75pt; font-family: Times New Roman; " />
+      <Control Type="AR.Field" Name="TXTTRANS_ERR_COUNT" DataField="A21" Left="2430" Top="10260" Width="2430" Height="270" Text="TRANS_ERR_COUNT" OutputFormat="#,##0" Style="ddo-char-set: 1; text-align: right; font-weight: bold; font-size: 9.75pt; font-family: Times New Roman; " />
+      <Control Type="AR.Field" Name="TXTTRANS_ERR_FEE" DataField="A22" Left="7290" Top="10260" Width="2520" Height="270" Text="TRANS_ERR_FEE" OutputFormat="#,##0" Style="ddo-char-set: 1; text-align: right; font-weight: bold; font-size: 9.75pt; font-family: Times New Roman; " />
+      <Control Type="AR.Label" Name="Label41" Left="90" Top="11250" Width="6030" Height="270" Caption="      Đề nghị Quý Công ty nộp các khoản phí trên vào tài khoản của VSD số:" Style="text-decoration: none; ddo-char-set: 163; font-weight: normal; font-style: normal; font-size: 9.75pt; font-family: Times New Roman; " />
+      <Control Type="AR.Label" Name="Label42" Left="3780" Top="11520" Width="1980" Height="270" Caption="chậm nhất vào ngày" Style="ddo-char-set: 163; text-decoration: none; font-weight: normal; font-style: normal; font-size: 9.75pt; font-family: Times New Roman; " />
+      <Control Type="AR.Label" Name="Label43" Left="6210" Top="11250" Width="4140" Height="270" Caption="122.10.00.017314.0 tại Ngân hàng Đầu tư và " Style="ddo-char-set: 163; text-decoration: none; font-weight: bold; font-style: normal; font-size: 9.75pt; font-family: Times New Roman; " />
+      <Control Type="AR.Field" Name="txtDATE_COMPLAIN" DataField="NN" Left="5400" Top="11520" Width="990" Height="270" Text="DATE_COMPLAIN" OutputFormat="MM/dd/yyyy" RightToLeft="1" Style="text-align: right; font-size: 9.75pt; font-family: Times New Roman; " />
+      <Control Type="AR.Label" Name="Label44" Left="90" Top="11970" Width="990" Height="270" Caption="Nơi nhận:" Style="text-decoration: none; ddo-char-set: 163; font-weight: bold; font-style: normal; font-size: 9.75pt; font-family: Times New Roman; " />
+      <Control Type="AR.Label" Name="Label45" Left="90" Top="12240" Width="990" Height="270" Caption="- Như trên" Style="ddo-char-set: 163; text-decoration: none; font-weight: normal; font-style: normal; font-size: 9.75pt; font-family: Times New Roman; " />
+      <Control Type="AR.Label" Name="Label46" Left="90" Top="12510" Width="990" Height="270" Caption="- Lưu LK" Style="ddo-char-set: 163; text-decoration: none; font-weight: normal; font-style: normal; font-size: 9.75pt; font-family: Times New Roman; " />
+      <Control Type="AR.Label" Name="Label47" Left="5670" Top="12150" Width="2610" Height="270" Caption="KT. TỔNG GIÁM ĐỐC " Style="text-decoration: none; ddo-char-set: 163; font-weight: normal; font-style: normal; font-size: 12pt; font-family: Times New Roman; " />
+      <Control Type="AR.Label" Name="Label48" Left="5580" Top="12510" Width="2790" Height="360" Caption="PHÓ TỔNG GIÁM ĐỐC" Style="text-decoration: none; ddo-char-set: 163; font-weight: bold; font-style: normal; font-size: 12pt; font-family: Times New Roman; " />
+      <Control Type="AR.Label" Name="Label49" Left="630" Top="2790" Width="5580" Height="360" Caption="Trung tâm Lưu ký Chứng khoán Việt Nam (VSD) thông báo phí tháng" Style="ddo-char-set: 163; text-decoration: none; font-weight: normal; font-style: normal; font-size: 9.75pt; font-family: Times New Roman; " />
+      <Control Type="AR.Label" Name="Label50" Left="6480" Top="2790" Width="2160" Height="360" Caption="của Quý Công ty như sau:" Style="text-decoration: none; ddo-char-set: 163; font-weight: normal; font-style: normal; font-size: 9.75pt; font-family: Times New Roman; " />
+      <Control Type="AR.Field" Name="txtMTH_F" DataField="MTH_F" Left="6210" Top="2790" Width="270" Height="360" Text="MTH_F" OutputFormat="" RightToLeft="1" Style="text-align: right; font-size: 9.75pt; font-family: Times New Roman; " />
+      <Control Type="AR.Field" Name="txtTLNAME" DataField="TLNAME" Left="5175" Top="14400" Width="3600" Height="270" Text="TLNAME" OutputFormat="" RightToLeft="1" Style="ddo-char-set: 163; text-align: center; font-weight: bold; font-size: 12pt; font-family: Times New Roman; " />
+      <Control Type="AR.Label" Name="Label52" Left="5310" Top="990" Width="1170" Height="270" Caption="Hà Nội, ngày" Style="text-decoration: none; ddo-char-set: 163; font-weight: normal; font-style: normal; font-size: 9.75pt; font-family: Times New Roman; " />
+      <Control Type="AR.Field" Name="txtday" DataField="DAY" Left="6390" Top="990" Width="270" Height="270" Text="DAY" OutputFormat="" Style="text-align: right; font-size: 9.75pt; font-family: Times New Roman; " />
+      <Control Type="AR.Field" Name="txtMTH" DataField="MTH" Left="7110" Top="990" Width="360" Height="270" Text="MTH" OutputFormat="" Style="text-align: right; font-size: 9.75pt; font-family: Times New Roman; " />
+      <Control Type="AR.Field" Name="txtYEAR" DataField="YEAR" Left="7830" Top="990" Width="630" Height="270" Text="YEAR" OutputFormat="" Style="text-align: right; font-size: 9.75pt; font-family: Times New Roman; " />
+      <Control Type="AR.Label" Name="Label53" Left="6660" Top="990" Width="540" Height="270" Caption=" tháng " Style="ddo-char-set: 163; text-decoration: none; font-weight: normal; font-style: normal; font-size: 9.75pt; font-family: Times New Roman; " />
+      <Control Type="AR.Label" Name="Label54" Left="7560" Top="990" Width="450" Height="270" Caption="năm" Style="ddo-char-set: 163; text-decoration: none; font-weight: normal; font-style: normal; font-size: 9.75pt; font-family: Times New Roman; " />
+      <Control Type="AR.Label" Name="Label61" Left="180" Top="5490" Width="2070" Height="270" Caption="Tự doanh" Style="ddo-char-set: 163; text-decoration: none; font-weight: bold; font-style: normal; font-size: 9.75pt; font-family: Times New Roman; " />
+      <Control Type="AR.Label" Name="Label62" Left="180" Top="5850" Width="2070" Height="270" Caption="Tổng cộng:" Style="ddo-char-set: 163; text-decoration: underline; font-weight: bold; font-style: normal; font-size: 9.75pt; font-family: Times New Roman; " />
+      <Control Type="AR.Label" Name="Label71" Left="630" Top="4140" Width="1440" Height="270" Caption="Tên TKLK" Style="ddo-char-set: 163; text-decoration: none; font-weight: bold; font-style: normal; font-size: 9.75pt; font-family: Times New Roman; " />
+      <Control Type="AR.Label" Name="Label73" Left="180" Top="5130" Width="2070" Height="270" Caption="Môi giới nước ngoài" Style="text-decoration: none; ddo-char-set: 163; font-weight: bold; font-style: normal; font-size: 9.75pt; font-family: Times New Roman; " />
+      <Control Type="AR.Label" Name="Label76" Left="3060" Top="3870" Width="2520" Height="244.8" Caption="Số lượng chứng khoán lưu ký" Style="text-decoration: none; ddo-char-set: 163; font-weight: bold; font-style: normal; font-size: 9.75pt; font-family: Times New Roman; " />
+      <Control Type="AR.Line" Name="Line1" X1="90" Y1="3870" X2="9900" Y2="3870" />
+      <Control Type="AR.Line" Name="Line2" X1="2340" Y1="4230" X2="6480" Y2="4230" />
+      <Control Type="AR.Line" Name="Line5" X1="90" Y1="5400" X2="9900" Y2="5400" />
+      <Control Type="AR.Line" Name="Line6" X1="90" Y1="5760" X2="9900" Y2="5760" />
+      <Control Type="AR.Line" Name="Line13" X1="90" Y1="6120" X2="9900" Y2="6120" />
+      <Control Type="AR.Line" Name="Line15" X1="90" Y1="7830" X2="9900" Y2="7830" />
+      <Control Type="AR.Line" Name="Line18" X1="90" Y1="8550" X2="9900" Y2="8550" />
+      <Control Type="AR.Line" Name="Line17" X1="90" Y1="8910" X2="9900" Y2="8910" />
+      <Control Type="AR.Line" Name="Line30" X1="7200" Y1="10170" X2="7200" Y2="10530" />
+      <Control Type="AR.Line" Name="Line24" X1="90" Y1="10170" X2="9900" Y2="10170" />
+      <Control Type="AR.Line" Name="Line25" X1="90" Y1="10530" X2="9900" Y2="10530" />
+      <Control Type="AR.Label" Name="Label5" Left="90" Top="11520" Width="3690" Height="270" Caption="Phát triển Việt Nam - Chi nhánh Hà Thành" Style="ddo-char-set: 163; text-decoration: none; font-weight: bold; font-style: normal; font-size: 9.75pt; font-family: Times New Roman; " />
+      <Control Type="AR.Label" Name="Label6" Left="180" Top="6210" Width="1530" Height="270" Caption="Số tiền bằng chữ:" Style="text-decoration: none; ddo-char-set: 163; font-weight: bold; font-style: normal; font-size: 9.75pt; font-family: Times New Roman; " />
+      <Control Type="AR.Label" Name="Label7" Left="180" Top="9000" Width="1530" Height="270" Caption="Số tiền bằng chữ:" Style="text-decoration: none; ddo-char-set: 163; font-weight: bold; font-style: normal; font-size: 9.75pt; font-family: Times New Roman; " />
+      <Control Type="AR.Label" Name="Label8" Left="180" Top="10620" Width="1530" Height="270" Caption="Số tiền bằng chữ:" Style="ddo-char-set: 163; text-decoration: none; font-weight: bold; font-style: normal; font-size: 9.75pt; font-family: Times New Roman; " />
+      <Control Type="AR.Field" Name="TextBox1" DataField="MTH_F" Left="2340" Top="990" Width="270" Height="270" Text="MTH_F" OutputFormat="" RightToLeft="1" Style="text-align: right; font-size: 9.75pt; font-family: Times New Roman; " />
+      <Control Type="AR.Label" Name="Label55" Left="2520" Top="990" Width="90" Height="270" Caption="/" Style="text-decoration: none; ddo-char-set: 163; font-weight: normal; font-style: normal; font-size: 9.75pt; font-family: Times New Roman; " />
+      <Control Type="AR.Field" Name="TXTYR" DataField="YR" Left="2610" Top="990" Width="630" Height="270" Text="YR" OutputFormat="" RightToLeft="1" Style="text-align: right; font-size: 9.75pt; font-family: Times New Roman; " />
+      <Control Type="AR.Field" Name="TXTRMLK" DataField="RMLK" Left="1800" Top="6210" Width="8100" Height="270" Text="RMLK" OutputFormat="" RightToLeft="1" Style="ddo-char-set: 1; text-align: right; font-style: italic; font-size: 9.75pt; font-family: Times New Roman; " />
+      <Control Type="AR.Line" Name="Line42" X1="90" Y1="6480" X2="9900" Y2="6480" />
+      <Control Type="AR.Field" Name="TXTRMCK" DataField="RMCK" Left="1800" Top="9000" Width="8010" Height="270" Text="RMCK" OutputFormat="#,##0" RightToLeft="1" Style="ddo-char-set: 1; text-align: right; font-style: italic; font-size: 9.75pt; font-family: Times New Roman; " />
+      <Control Type="AR.Line" Name="Line44" X1="90" Y1="9270" X2="9900" Y2="9270" />
+      <Control Type="AR.Field" Name="TXTRMERR" DataField="RMERR" Left="1800" Top="10620" Width="8010" Height="270" Text="RMERR" OutputFormat="#,##0" RightToLeft="1" Style="ddo-char-set: 1; text-align: right; font-style: italic; font-size: 9.75pt; font-family: Times New Roman; " />
+      <Control Type="AR.Line" Name="Line43" X1="90" Y1="10890" X2="9900" Y2="10890" />
+      <Control Type="AR.Line" Name="Line16" X1="90" Y1="8190" X2="9900" Y2="8190" />
+      <Control Type="AR.Label" Name="Label2" Left="1170" Top="90" Width="1530" Height="270" Caption="TRUNG TÂM " Style="text-decoration: none; ddo-char-set: 163; font-weight: normal; font-style: normal; font-size: 11.25pt; font-family: Times New Roman; " />
+      <Control Type="AR.Label" Name="Label3" Left="0" Top="360" Width="3960" Height="270" Caption="LƯU KÝ CHỨNG KHOÁN VIỆT NAM" Style="ddo-char-set: 1; text-decoration: none; font-weight: bold; font-style: normal; font-size: 11.25pt; font-family: Times New Roman; " />
+      <Control Type="AR.Label" Name="Label24" Left="4545" Top="0" Width="4680" Height="270" Caption="CỘNG HOÀ XÃ HỘI CHỦ NGHĨA VIỆT NAM" Style="text-decoration: none; ddo-char-set: 163; font-weight: normal; font-style: normal; font-size: 11.25pt; font-family: Times New Roman; " />
+      <Control Type="AR.Label" Name="Label25" Left="5400" Top="270" Width="2970" Height="270" Caption="Độc lập - Tự do - Hạnh phúc" Style="text-decoration: none; ddo-char-set: 163; font-weight: bold; font-style: normal; font-size: 11.25pt; font-family: Times New Roman; " />
+      <Control Type="AR.Line" Name="Line46" X1="1080" Y1="630" X2="2880" Y2="630" />
+      <Control Type="AR.Line" Name="Line47" X1="5940" Y1="630" X2="7740" Y2="630" />
+      <Control Type="AR.Field" Name="txtMICODE" DataField="MICODE" Left="4950" Top="2250" Width="1080" Height="360" Text="001" RightToLeft="1" Style="ddo-char-set: 163; text-align: right; font-weight: normal; font-size: 12pt; font-family: Times New Roman; " />
+      <Control Type="AR.Label" Name="Label35" Left="3690" Top="2250" Width="2610" Height="360" Caption="( Mã TVLK:        )" Style="ddo-char-set: 163; color: Black; text-decoration: none; font-weight: normal; font-style: normal; font-size: 12pt; font-family: Times New Roman; " />
+    </Section>
+    <Section Type="Detail" Name="Detail1" Visible="0" Height="0" BackColor="16777215" />
+    <Section Type="GroupFooter" Name="GroupFooter1" Visible="0" Height="0" BackColor="16777215" />
+  </Sections>
+  <ReportComponentTray />
+  <PageSettings LeftMargin="1008" RightMargin="432" TopMargin="720" BottomMargin="720" PaperSize="9" PaperWidth="11906" PaperHeight="16838" PaperName="" Orientation="1" />
+  <Parameters />
+</ActiveReportsLayout>

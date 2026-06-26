@@ -1,0 +1,333 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="Act0" xml:space="preserve">
+    <value>XEM</value>
+  </data>
+  <data name="Act1" xml:space="preserve">
+    <value>THÊM MỚI</value>
+  </data>
+  <data name="Act2" xml:space="preserve">
+    <value>SỬA</value>
+  </data>
+  <data name="btnAdd" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="btnAddNew" xml:space="preserve">
+    <value>Thêm mới</value>
+  </data>
+  <data name="btnAddNew_TLLOG" xml:space="preserve">
+    <value>Xem giao dịch</value>
+  </data>
+  <data name="btnBack" xml:space="preserve">
+    <value>Back</value>
+  </data>
+  <data name="btnDelete" xml:space="preserve">
+    <value>Xóa</value>
+  </data>
+  <data name="btnDelete_TLLOG" xml:space="preserve">
+    <value>Xóa giao dịch</value>
+  </data>
+  <data name="btnEdit" xml:space="preserve">
+    <value>Sửa</value>
+  </data>
+  <data name="btnEdit_TLLOG" xml:space="preserve">
+    <value>Loại giao dịch</value>
+  </data>
+  <data name="btnExecute" xml:space="preserve">
+    <value>In</value>
+  </data>
+  <data name="btnExecute_TLLOG" xml:space="preserve">
+    <value>In báo cáo</value>
+  </data>
+  <data name="btnExit" xml:space="preserve">
+    <value>Thoát</value>
+  </data>
+  <data name="btnExport" xml:space="preserve">
+    <value>&amp;Kết xuất</value>
+  </data>
+  <data name="btnNext" xml:space="preserve">
+    <value>Next</value>
+  </data>
+  <data name="btnRemove" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="btnRemoveAll" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="btnSearch" xml:space="preserve">
+    <value>&amp;Tìm kiếm</value>
+  </data>
+  <data name="btnView" xml:space="preserve">
+    <value>Xem</value>
+  </data>
+  <data name="btnView_TLLOG" xml:space="preserve">
+    <value>Duyệt giao dịch</value>
+  </data>
+  <data name="DelConfirm" xml:space="preserve">
+    <value>Đồng ý xoá dữ liệu?</value>
+  </data>
+  <data name="DelNotSuccess" xml:space="preserve">
+    <value>Thao tác xóa không thành công!</value>
+  </data>
+  <data name="DelSuccess" xml:space="preserve">
+    <value>Xoá dữ liệu thành công!</value>
+  </data>
+  <data name="ERR_RG_IS_HAS_SI" xml:space="preserve">
+    <value>Không được xóa TCPH đã đăng kí chứng khoán</value>
+  </data>
+  <data name="ERR_SA_BR_HAS_USER" xml:space="preserve">
+    <value>Không được xóa chi nhánh đã có người sử dụng!</value>
+  </data>
+  <data name="ERR_SA_TL_HAS_CHILD" xml:space="preserve">
+    <value>Không được xóa NSD đã được gán vào nhóm NSD</value>
+  </data>
+  <data name="ErrNum" xml:space="preserve">
+    <value>Số dòng phải là số nguyên lớn hơn 0!</value>
+  </data>
+  <data name="ExecuteFlag_AddNew" xml:space="preserve">
+    <value>Thêm mới...</value>
+  </data>
+  <data name="ExecuteFlag_Delete" xml:space="preserve">
+    <value>Xoá...</value>
+  </data>
+  <data name="ExecuteFlag_Edit" xml:space="preserve">
+    <value>Sửa...</value>
+  </data>
+  <data name="ExecuteFlag_View" xml:space="preserve">
+    <value>Xem...</value>
+  </data>
+  <data name="ExportSuccessful" xml:space="preserve">
+    <value>Kết xuất dữ liệu thành công!</value>
+  </data>
+  <data name="Footer" xml:space="preserve">
+    <value>Đây là footer, không thể xem, sửa, xoá dữ liệu!</value>
+  </data>
+  <data name="grbCondition" xml:space="preserve">
+    <value>Điều kiện</value>
+  </data>
+  <data name="grbConditionList" xml:space="preserve">
+    <value>Danh sách điều kiện tìm kiếm:</value>
+  </data>
+  <data name="grbSearchFilter" xml:space="preserve">
+    <value>Điều kiện tìm kiếm:</value>
+  </data>
+  <data name="grbSearchResult" xml:space="preserve">
+    <value>Kết quả tìm kiếm:</value>
+  </data>
+  <data name="GridEx_FooterRow" xml:space="preserve">
+    <value>Tổng số bản ghi tìm kiếm: </value>
+  </data>
+  <data name="GridEx_FooterRowFrom" xml:space="preserve">
+    <value>Từ dòng </value>
+  </data>
+  <data name="GridEx_FooterRowIn" xml:space="preserve">
+    <value>trong tổng số @ dòng</value>
+  </data>
+  <data name="GridEx_FooterRowTo" xml:space="preserve">
+    <value>đến dòng </value>
+  </data>
+  <data name="GridEx_GroupByRow" xml:space="preserve">
+    <value>Hãy kéo cột cần nhóm vào đây! (F6: Focus to grid, F7: Prev, F8: Next, F9: Choose)</value>
+  </data>
+  <data name="lbField" xml:space="preserve">
+    <value>Tiêu chí:</value>
+  </data>
+  <data name="lbNumRow" xml:space="preserve">
+    <value>Số dòng:</value>
+  </data>
+  <data name="lbOperator" xml:space="preserve">
+    <value>Điều kiện:</value>
+  </data>
+  <data name="lbValue" xml:space="preserve">
+    <value>Giá trị:</value>
+  </data>
+  <data name="NothingToExport" xml:space="preserve">
+    <value>Không có dữ liệu để kết xuất!</value>
+  </data>
+  <data name="NotSelected" xml:space="preserve">
+    <value>Phải chọn dòng thông tin cần xem, sửa, xoá!</value>
+  </data>
+  <data name="RR_SA_GRP_HAS_CHILD" xml:space="preserve">
+    <value>Không được xóa nhóm đã được gán NSD vào nhóm!</value>
+  </data>
+  <data name="Searched" xml:space="preserve">
+    <value>Tổng số bản ghi: </value>
+  </data>
+  <data name="Searching" xml:space="preserve">
+    <value>Đang tìm kiếm...</value>
+  </data>
+  <data name="ShowForm1" xml:space="preserve">
+    <value>Bạn đang thực hiện thao tác </value>
+  </data>
+  <data name="ShowForm2" xml:space="preserve">
+    <value> trên Form này!</value>
+  </data>
+  <data name="ssbStatus" xml:space="preserve">
+    <value>Ctrl+N: Thêm mới, Ctrl + V: Xem, Ctrl+E: Sửa, Ctrl+D: Xóa, F7: Trang trước, F8: Trang sau</value>
+  </data>
+  <data name="btnAddNew_RP" xml:space="preserve">
+    <value>Tạo báo cáo</value>
+  </data>
+  <data name="btnEdit_RP" xml:space="preserve">
+    <value>In báo cáo</value>
+  </data>
+  <data name="btnView_RP" xml:space="preserve">
+    <value>Xem báo cáo</value>
+  </data>
+  <data name="ssbStatus_TLLOG" xml:space="preserve">
+    <value>Ctrl+N: Xem GD, Ctrl+E: Duyệt GD, Ctrl+D: Loại GD, Ctrl+V: In GD, F7: Trang trước, F8: Trang sau</value>
+  </data>
+  <data name="ERR_RG_MI_HAS_TRANS" xml:space="preserve">
+    <value>Không được xóa TVLK khi đã phát sinh giao dịch.</value>
+  </data>
+  <data name="ERR_RG_SI_HAS_TRANS" xml:space="preserve">
+    <value>Không được xóa Chứng khoán khi đã phát sinh giao dịch.</value>
+  </data>
+  <data name="StoresErr" xml:space="preserve">
+    <value>Lỗi lấy dữ liệu từ hệ thống do có thay đổi cách lấy dữ liệu không đảm bảo DL liệu được lấy đúng theo phân quyền. Hãy liên hệ với FPT để được giúp đỡ!</value>
+  </data>
+  <data name="btnExecute_RP" xml:space="preserve">
+    <value>Mở file</value>
+  </data>
+  <data name="chkPass" xml:space="preserve">
+    <value>Tra cứu tất cả dữ liệu</value>
+  </data>
+  <data name="chkSearch" xml:space="preserve">
+    <value>Tra cứu dữ liệu từ ngày $</value>
+  </data>
+  <data name="ErrPartition" xml:space="preserve">
+    <value>Tiêu chí tìm kiếm theo ngày không hợp lý.!</value>
+  </data>
+  <data name="Exporting" xml:space="preserve">
+    <value>Đang kết xuất ra tệp tin ...</value>
+  </data>
+  <data name="ErrMiCodeCondition" xml:space="preserve">
+    <value>Bạn phải chọn tiêu chí tìm kiếm theo TVLK. Vui lòng nhập tiêu chí tìm kiếm theo TVLK!</value>
+  </data>
+  <data name="ErrRowNumFormat" xml:space="preserve">
+    <value>Bạn nhập số dòng hiển thị chưa đúng hoặc đang để trống! Vui lòng nhập lại !</value>
+  </data>
+  <data name="MaxRowSearch" xml:space="preserve">
+    <value>Số dòng hiển thị lớn hơn số dòng hiển thị tối đa cho phép @MAX_ROW_SEARCH . Bạn vui lòng giảm số dòng hiển thị hoặc chọn chức năng kết xuất dữ liệu để tra cứu thông tin!</value>
+  </data>
+  <data name="SysSearchStatus" xml:space="preserve">
+    <value>Hiện tại các chức năng tra cứu đang tạm ngừng hoạt động! Bạn vui lòng chờ cho đến khi IT kích hoạt lại các chức năng tìm kiếm!</value>
+  </data>
+</root>

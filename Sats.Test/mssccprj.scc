@@ -1,0 +1,5 @@
+SCC = This is a Source Code Control file
+
+[Sats.Test.vbproj]
+SCC_Aux_Path = "\\192.168.134.38\vsds-upgrade-2012"
+SCC_Project_Name = "$/VSDS-UPGRADE-2012/WIP/PROGRAM/VSDS_CA/Sats.Test", IJCAAAAA

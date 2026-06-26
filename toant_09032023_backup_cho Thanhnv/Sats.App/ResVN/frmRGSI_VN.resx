@@ -1,0 +1,321 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="AddnewSuccessful" xml:space="preserve">
+    <value>Thêm mới dữ liệu thành công!</value>
+  </data>
+  <data name="lbBondPeriod" xml:space="preserve">
+    <value>Thời hạn TP</value>
+  </data>
+  <data name="BondPeriodNotComparetitive" xml:space="preserve">
+    <value>Trường thời hạn TP không được bỏ trống</value>
+  </data>
+  <data name="btnApply" xml:space="preserve">
+    <value>&amp;Chấp nhận</value>
+  </data>
+  <data name="btnCancel" xml:space="preserve">
+    <value>&amp;Thoát</value>
+  </data>
+  <data name="DEACTIVE" xml:space="preserve">
+    <value>Không hoạt động</value>
+  </data>
+  <data name="lbDueDate" xml:space="preserve">
+    <value>Ngày đến hạn TT</value>
+  </data>
+  <data name="DueDateNotComparetitive" xml:space="preserve">
+    <value>Trường Ngày đến hạn thanh toán không được để trống</value>
+  </data>
+  <data name="EditSuccessful" xml:space="preserve">
+    <value>Cập nhật dữ liệu thành công!</value>
+  </data>
+  <data name="lbEffectiveDate" xml:space="preserve">
+    <value>Ngày GD</value>
+  </data>
+  <data name="ERR_RG_SI_CODE_DUPLICATED" xml:space="preserve">
+    <value>Mã chứng khoán đã tồn tại. Vui lòng nhập lại</value>
+  </data>
+  <data name="lbExchangeDate" xml:space="preserve">
+    <value>Hạn chuyển đổi</value>
+  </data>
+  <data name="ExchangeDateNotComparetitive" xml:space="preserve">
+    <value>Trường Hạn chuyển đổi không được để trống</value>
+  </data>
+  <data name="lbExchangeRate" xml:space="preserve">
+    <value>Tỷ lệ chuyển đổi</value>
+  </data>
+  <data name="ExchangeRateNotComparetitive" xml:space="preserve">
+    <value>Trường Tỉ lệ chuyển đổi không được để trống</value>
+  </data>
+  <data name="frmRGSI" xml:space="preserve">
+    <value>Đăng ký chứng khoán</value>
+  </data>
+  <data name="grbInformation" xml:space="preserve">
+    <value>Thông tin</value>
+  </data>
+  <data name="InitDialogFailed" xml:space="preserve">
+    <value>Không khởi tạo được cửa sổ!</value>
+  </data>
+  <data name="lbInterestPeriod" xml:space="preserve">
+    <value>Kỳ hạn trả lãi (tháng)</value>
+  </data>
+  <data name="InterestPeriodNotComparetitive" xml:space="preserve">
+    <value>Trường kỳ hạn trả lãi tháng không được để trống</value>
+  </data>
+  <data name="lbInterestRate" xml:space="preserve">
+    <value>Lãi suất (%năm)</value>
+  </data>
+  <data name="InterestRateNotComparetitive" xml:space="preserve">
+    <value>Trường Lãi suất TP không được để trống</value>
+  </data>
+  <data name="ISID" xml:space="preserve">
+    <value>TCPH</value>
+  </data>
+  <data name="lbIssuerDate" xml:space="preserve">
+    <value>Ngày PH</value>
+  </data>
+  <data name="ISTYPE11" xml:space="preserve">
+    <value>TCPH là Cty đại chúng nên loại đầu tư phải là CP hoặc TP</value>
+  </data>
+  <data name="ISTYPE12" xml:space="preserve">
+    <value>TCPH là Cty đại chúng nên TP chỉ là TP chuyển đổi hoặc TP không chuyển đổi.</value>
+  </data>
+  <data name="ISTYPE21" xml:space="preserve">
+    <value>TCPH là chính phủ nên loại đầu tư chỉ là Trái Phiếu</value>
+  </data>
+  <data name="ISTYPE22" xml:space="preserve">
+    <value>TCPH là chính phủ nên Trái phiếu đầu tư phải là TP Kho bạc, TP đầu tư - TW, Quỹ hỗ trợ phát triển</value>
+  </data>
+  <data name="ISTYPE3" xml:space="preserve">
+    <value>TCPH là chính quyền địa phương nên lại đầu tư chỉ là Trái phiếu Địa phương</value>
+  </data>
+  <data name="ISTYPE4" xml:space="preserve">
+    <value>TCPH là Quỹ đầu tư nên loại đầu tư chỉ là Chứng chỉ quỹ</value>
+  </data>
+  <data name="ISTYPE5" xml:space="preserve">
+    <value>TCPH là Tổ chức trung gian Tài chính nên loại đầu tư chỉ là Chứng khoán Phái sinh</value>
+  </data>
+  <data name="lbCaption0" xml:space="preserve">
+    <value>Xem thông tin chứng khoán</value>
+  </data>
+  <data name="lbCaption1" xml:space="preserve">
+    <value>Thêm mới chứng khoán</value>
+  </data>
+  <data name="lbCaption2" xml:space="preserve">
+    <value>Sửa thông tin chứng khoán</value>
+  </data>
+  <data name="lbReleaseMode" xml:space="preserve">
+    <value>Phương thức PH</value>
+  </data>
+  <data name="lbReleaseSeries" xml:space="preserve">
+    <value>Đợt PH</value>
+  </data>
+  <data name="RaRate" xml:space="preserve">
+    <value>Tỉ lệ ROOM</value>
+  </data>
+  <data name="Mandatory" xml:space="preserve">
+    <value>Trường "@" không được để trống</value>
+  </data>
+  <data name="Note" xml:space="preserve">
+    <value>Ghi chú</value>
+  </data>
+  <data name="NumericDataType" xml:space="preserve">
+    <value>Trường "@" nhập không đúng </value>
+  </data>
+  <data name="PartValue" xml:space="preserve">
+    <value>Mệnh giá</value>
+  </data>
+  <data name="SavingFailed" xml:space="preserve">
+    <value>Không thể thêm mới hoặc sửa thông tin chứng khoán</value>
+  </data>
+  <data name="SICODE" xml:space="preserve">
+    <value>Mã CK</value>
+  </data>
+  <data name="StockName" xml:space="preserve">
+    <value>Tên CK</value>
+  </data>
+  <data name="StockType" xml:space="preserve">
+    <value>Loại CK</value>
+  </data>
+  <data name="Type" xml:space="preserve">
+    <value>Loại đầu tư</value>
+  </data>
+  <data name="lbISIN" xml:space="preserve">
+    <value>Mã ISIN</value>
+  </data>
+  <data name="ERR_RG_IS_HAS_STOCK" xml:space="preserve">
+    <value>Đăng ký không thành công vì TCPH này đã đăng ký chứng khoán. </value>
+  </data>
+  <data name="lbBrId" xml:space="preserve">
+    <value>Chi nhánh</value>
+  </data>
+  <data name="lbVSDBrId" xml:space="preserve">
+    <value>Nơi quản lý</value>
+  </data>
+  <data name="grbAddInfo" xml:space="preserve">
+    <value>Thông tin bổ sung về TP</value>
+  </data>
+  <data name="btnOK" xml:space="preserve">
+    <value>&amp;Chấp nhận</value>
+  </data>
+  <data name="grbAddInfo2" xml:space="preserve">
+    <value>Thông tin bổ sung TP chuyển đổi</value>
+  </data>
+  <data name="INT_RELEASE_MODE" xml:space="preserve">
+    <value>Cách thức trả lãi</value>
+  </data>
+  <data name="DATENOTCOMPATITIVE" xml:space="preserve">
+    <value>Ngày giao dịch phải sau ngày phát hành. Vui lòng nhập lại!</value>
+  </data>
+  <data name="lbCurrency" xml:space="preserve">
+    <value>Tiền tệ</value>
+  </data>
+  <data name="lbPublicDate" xml:space="preserve">
+    <value>Ngày cấp</value>
+  </data>
+  <data name="ListedQtty" xml:space="preserve">
+    <value>Khối lượng NY</value>
+  </data>
+  <data name="lbPeriodUnit" xml:space="preserve">
+    <value>ĐV kỳ hạn TP</value>
+  </data>
+  <data name="lbNpaidDate" xml:space="preserve">
+    <value>Ngày TL đầu tiên</value>
+  </data>
+  <data name="lbInterestType" xml:space="preserve">
+    <value>Loại hình TL</value>
+  </data>
+  <data name="lbIntRateType" xml:space="preserve">
+    <value>Loại lãi suất</value>
+  </data>
+  <data name="lbIntPerAss" xml:space="preserve">
+    <value>Số kỳ TL giả định</value>
+  </data>
+  <data name="ERR_RG_SI_CW_CODE_1" xml:space="preserve">
+    <value>Mã Chứng quyền có ký tự đầu tiên phải là C hoặc P .Vui lòng nhập lại !</value>
+  </data>
+  <data name="ERR_RG_SI_CW_CODE_2" xml:space="preserve">
+    <value>Mã Chứng quyền phải có 8 ký tự .Vui lòng nhập lại !</value>
+  </data>
+  <data name="ERR_RG_SI_CW_CODE_3" xml:space="preserve">
+    <value>Mã Chứng quyền có 4 ký tự cuối cùng phải là số .Vui lòng nhập lại !</value>
+  </data>
+  <data name="ERR_RG_SI_PARTVALUE_1" xml:space="preserve">
+    <value>Mệnh giá Cổ phiếu, trái phiếu phải lớn hơn 0 !</value>
+  </data>
+</root>

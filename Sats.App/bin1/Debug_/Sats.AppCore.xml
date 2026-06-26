@@ -1,0 +1,151 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+Sats.AppCore
+</name>
+</assembly>
+<members>
+<member name="P:Sats.AppCore.My.Resources.frmFunction_VN.ResourceManager">
+	<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member><member name="P:Sats.AppCore.My.Resources.frmFunction_VN.Culture">
+	<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member><member name="P:Sats.AppCore.My.Resources.frmFunction_VN.btnCancel">
+	<summary>
+  Looks up a localized string similar to Thoát.
+</summary>
+</member><member name="P:Sats.AppCore.My.Resources.frmFunction_VN.btnCheck">
+	<summary>
+  Looks up a localized string similar to Kiểm tra.
+</summary>
+</member><member name="P:Sats.AppCore.My.Resources.frmFunction_VN.btnOK">
+	<summary>
+  Looks up a localized string similar to Chấp nhận.
+</summary>
+</member><member name="P:Sats.AppCore.My.Resources.frmFunction_VN.CheckErr">
+	<summary>
+  Looks up a localized string similar to Công thức tính toán không chính xác!.
+</summary>
+</member><member name="P:Sats.AppCore.My.Resources.frmFunction_VN.CheckOK">
+	<summary>
+  Looks up a localized string similar to Công thức tính toán được chấp nhận..
+</summary>
+</member><member name="P:Sats.AppCore.My.Resources.frmFunction_VN.frmFunction">
+	<summary>
+  Looks up a localized string similar to Xây dựng công thức.
+</summary>
+</member><member name="P:Sats.AppCore.My.Resources.frmFunction_VN.grpEdit">
+	<summary>
+  Looks up a localized string similar to Công thức.
+</summary>
+</member><member name="P:Sats.AppCore.My.Resources.frmFunction_VN.grpFunc">
+	<summary>
+  Looks up a localized string similar to Danh sách hàm tính quyền.
+</summary>
+</member><member name="P:Sats.AppCore.My.Resources.frmFunction_VN.grpValue">
+	<summary>
+  Looks up a localized string similar to Giá trị.
+</summary>
+</member><member name="T:Sats.AppCore.My.Resources.frmFunction_VN">
+	<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member><member name="P:Sats.AppCore.My.Resources.frmReportView_VN.ResourceManager">
+	<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member><member name="P:Sats.AppCore.My.Resources.frmReportView_VN.Culture">
+	<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member><member name="P:Sats.AppCore.My.Resources.frmReportView_VN.Overwrite">
+	<summary>
+  Looks up a localized string similar to Bạn có muốn ghi đè lên tệp tin này hay không?.
+</summary>
+</member><member name="P:Sats.AppCore.My.Resources.frmReportView_VN.QSave">
+	<summary>
+  Looks up a localized string similar to Bạn có muốn lưu lại báo cáo này không?.
+</summary>
+</member><member name="P:Sats.AppCore.My.Resources.frmReportView_VN.Save">
+	<summary>
+  Looks up a localized string similar to Lưu.
+</summary>
+</member><member name="P:Sats.AppCore.My.Resources.frmReportView_VN.SaveTitle">
+	<summary>
+  Looks up a localized string similar to Lưu báo cáo.
+</summary>
+</member><member name="T:Sats.AppCore.My.Resources.frmReportView_VN">
+	<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member><member name="P:Sats.AppCore.My.Resources.frmForeignNoReg_VN.ResourceManager">
+	<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member><member name="P:Sats.AppCore.My.Resources.frmForeignNoReg_VN.Culture">
+	<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member><member name="P:Sats.AppCore.My.Resources.frmForeignNoReg_VN.btnExit">
+	<summary>
+  Looks up a localized string similar to &amp;Thoát.
+</summary>
+</member><member name="P:Sats.AppCore.My.Resources.frmForeignNoReg_VN.btnGenerate">
+	<summary>
+  Looks up a localized string similar to &amp;Sinh mã.
+</summary>
+</member><member name="P:Sats.AppCore.My.Resources.frmForeignNoReg_VN.btnOk">
+	<summary>
+  Looks up a localized string similar to &amp;Chấp nhận.
+</summary>
+</member><member name="P:Sats.AppCore.My.Resources.frmForeignNoReg_VN.ForeignNoDuplicated">
+	<summary>
+  Looks up a localized string similar to Mã NĐT nước ngoài này đã tồn tại..
+</summary>
+</member><member name="P:Sats.AppCore.My.Resources.frmForeignNoReg_VN.ForeignNoEmpty">
+	<summary>
+  Looks up a localized string similar to Bạn chưa sinh mã NĐT nước ngoài.
+</summary>
+</member><member name="P:Sats.AppCore.My.Resources.frmForeignNoReg_VN.ForeignNoFormatError">
+	<summary>
+  Looks up a localized string similar to Mã NĐT nước ngoài không đúng định đạng cho phép..
+</summary>
+</member><member name="P:Sats.AppCore.My.Resources.frmForeignNoReg_VN.frmForeignNoReg">
+	<summary>
+  Looks up a localized string similar to Cấp mã nhà đầu tư nước ngoài.
+</summary>
+</member><member name="P:Sats.AppCore.My.Resources.frmForeignNoReg_VN.IaTypeNotCorrect">
+	<summary>
+  Looks up a localized string similar to Chỉ cấp mã NĐT NN cho các NĐT có loại hình sở hữu là 4 hoặc 6. Vui lòng chọn lại loại hình sở hữu của NĐT.
+</summary>
+</member><member name="P:Sats.AppCore.My.Resources.frmForeignNoReg_VN.lbForeignNo">
+	<summary>
+  Looks up a localized string similar to Mã NĐT nước ngoài.
+</summary>
+</member><member name="T:Sats.AppCore.My.Resources.frmForeignNoReg_VN">
+	<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member><member name="P:Sats.AppCore.My.Resources.Resources.ResourceManager">
+	<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member><member name="P:Sats.AppCore.My.Resources.Resources.Culture">
+	<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member><member name="T:Sats.AppCore.My.Resources.Resources">
+	<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member>
+</members>
+</doc>

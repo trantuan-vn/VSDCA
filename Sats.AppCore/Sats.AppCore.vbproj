@@ -1,0 +1,488 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="3.5" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.21022</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{42725B19-7C6C-47BF-87C5-500D7385F3C9}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <RootNamespace>Sats.AppCore</RootNamespace>
+    <AssemblyName>Sats.AppCore</AssemblyName>
+    <FileAlignment>512</FileAlignment>
+    <MyType>Windows</MyType>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <OptionExplicit>On</OptionExplicit>
+    <OptionCompare>Binary</OptionCompare>
+    <OptionStrict>Off</OptionStrict>
+    <OptionInfer>On</OptionInfer>
+    <SccProjectName>
+    </SccProjectName>
+    <SccLocalPath>
+    </SccLocalPath>
+    <SccAuxPath>
+    </SccAuxPath>
+    <SccProvider>
+    </SccProvider>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+    <OldToolsVersion>3.5</OldToolsVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DocumentationFile>Sats.AppCore.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022,42353,42354,42355</NoWarn>
+    <PlatformTarget>AnyCPU</PlatformTarget>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DocumentationFile>Sats.AppCore.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022,42353,42354,42355</NoWarn>
+    <PlatformTarget>AnyCPU</PlatformTarget>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x64' ">
+    <PlatformTarget>x64</PlatformTarget>
+    <OutputPath>bin\x64\Debug\</OutputPath>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x64' ">
+    <PlatformTarget>x64</PlatformTarget>
+    <OutputPath>bin\x64\Release\</OutputPath>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="ActiveReports.HtmlExport, Version=5.2.3.685, Culture=neutral, PublicKeyToken=cc4967777c49a3ff" />
+    <Reference Include="ActiveReports.PdfExport, Version=5.2.3.685, Culture=neutral, PublicKeyToken=cc4967777c49a3ff" />
+    <Reference Include="ActiveReports.RtfExport, Version=5.2.3.685, Culture=neutral, PublicKeyToken=cc4967777c49a3ff" />
+    <Reference Include="ActiveReports.TextExport, Version=5.2.3.685, Culture=neutral, PublicKeyToken=cc4967777c49a3ff" />
+    <Reference Include="ActiveReports.Viewer3, Version=5.2.3.685, Culture=neutral, PublicKeyToken=cc4967777c49a3ff" />
+    <Reference Include="ActiveReports.XlsExport, Version=5.2.3.685, Culture=neutral, PublicKeyToken=cc4967777c49a3ff" />
+    <Reference Include="ActiveReports3, Version=5.2.3.685, Culture=neutral, PublicKeyToken=cc4967777c49a3ff" />
+    <Reference Include="BkavCAPlugIn_New, Version=1.0.0.6, Culture=neutral, PublicKeyToken=66b45ab37bb37a36, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\DEPLOYMENT\COM\BkavCAPlugIn_New.dll</HintPath>
+    </Reference>
+    <Reference Include="ICSharpCode.SharpZipLib, Version=0.81.0.1407, Culture=neutral, PublicKeyToken=1b03e6acf1164f73">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\DEPLOYMENT\Com\ICSharpCode.SharpZipLib.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Office.Interop.Excel, Version=11.0.0.0, Culture=neutral, PublicKeyToken=71e9bce111e9429c" />
+    <Reference Include="Sats.WinFormsUI.Docking, Version=2.2.2914.28002, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\DEPLOYMENT\Com\Sats.WinFormsUI.Docking.dll</HintPath>
+    </Reference>
+    <Reference Include="SendFiles, Version=1.0.2506.19176, Culture=neutral, PublicKeyToken=db0cffc473b0c41d">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\DEPLOYMENT\Com\SendFiles.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.configuration" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Data.SqlServerCe, Version=3.5.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL" />
+    <Reference Include="System.Design" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Web.Services, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>C:\WINDOWS\assembly\GAC_MSIL\System.Web.Services\2.0.0.0__b03f5f7f11d50a3a\System.Web.Services.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Core">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Xml.Linq">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data.DataSetExtensions">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="Xceed.Grid, Version=1.1.103.0, Culture=neutral, PublicKeyToken=ba83ff368b7563c6">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>C:\Program Files\Xceed Components\Xceed Grid for .NET 1.1\Bin\v1.1.103.0\Xceed.Grid.dll</HintPath>
+    </Reference>
+    <Reference Include="Xceed.SmartUI, Version=3.1.103.0, Culture=neutral, PublicKeyToken=ba83ff368b7563c6">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>C:\Program Files\Xceed Components\Xceed SmartUI for .NET 3.1\Bin\v3.1.103.0\Xceed.SmartUI.dll</HintPath>
+    </Reference>
+    <Reference Include="Xceed.SmartUI.Controls, Version=3.1.103.0, Culture=neutral, PublicKeyToken=ba83ff368b7563c6">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>C:\Program Files\Xceed Components\Xceed SmartUI for .NET 3.1\Bin\v3.1.103.0\Xceed.SmartUI.Controls.dll</HintPath>
+    </Reference>
+    <Reference Include="Xceed.SmartUI.UIStyle, Version=3.1.103.0, Culture=neutral, PublicKeyToken=ba83ff368b7563c6">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>C:\Program Files\Xceed Components\Xceed SmartUI for .NET 3.1\Bin\v3.1.103.0\Xceed.SmartUI.UIStyle.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Collections.Generic" />
+    <Import Include="System.Data" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Linq" />
+    <Import Include="System.Xml.Linq" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Components\GridEx.vb">
+      <SubType>Control</SubType>
+    </Compile>
+    <Compile Include="Components\IconViewer.vb" />
+    <Compile Include="Components\modCoreLib.vb" />
+    <Compile Include="Components\ProcessForm.vb" />
+    <Compile Include="Controls\ComboBoxEx.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Controls\FlexMaskEditBox.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Controls\ucGridControl.Designer.vb">
+      <DependentUpon>ucGridControl.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\ucGridControl.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="frmMaintenanceEx.Designer.vb">
+      <DependentUpon>frmMaintenanceEx.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmMaintenanceEx.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="rptMF001.Designer.vb">
+      <DependentUpon>rptMF001.vb</DependentUpon>
+    </Compile>
+    <Compile Include="rptMF001.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="rptMF002.designer.vb">
+      <DependentUpon>rptMF002.vb</DependentUpon>
+    </Compile>
+    <Compile Include="rptMF002.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="rptReportType3Export.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="rptReportsExport.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="frmSelectRpt.Designer.vb">
+      <DependentUpon>frmSelectRpt.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmSelectRpt.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="rptReportType4.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="frmErrMsg.Designer.vb">
+      <DependentUpon>frmErrMsg.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmErrMsg.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmExportParameter.Designer.vb">
+      <DependentUpon>frmExportParameter.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmExportParameter.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmForeignNoReg.Designer.vb">
+      <DependentUpon>frmForeignNoReg.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmForeignNoReg.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmFTPClient.Designer.vb">
+      <DependentUpon>frmFTPClient.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmFTPClient.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmFunction.Designer.vb">
+      <DependentUpon>frmFunction.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmFunction.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmLookUp.designer.vb">
+      <DependentUpon>frmLookUp.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmLookUp.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmMaintenance.Designer.vb">
+      <DependentUpon>frmMaintenance.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmMaintenance.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmProcess.Designer.vb">
+      <DependentUpon>frmProcess.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmProcess.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmReportView.Designer.vb">
+      <DependentUpon>frmReportView.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmReportView.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmRPParameter.designer.vb">
+      <DependentUpon>frmRPParameter.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmRPParameter.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmSearch.Designer.vb">
+      <DependentUpon>frmSearch.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmSearch.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmSelectBranch.Designer.vb">
+      <DependentUpon>frmSelectBranch.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmSelectBranch.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmSelectTLTX.Designer.vb">
+      <DependentUpon>frmSelectTLTX.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmSelectTLTX.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmSelectVsdBrid.Designer.vb">
+      <DependentUpon>frmSelectVsdBrid.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmSelectVsdBrid.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmShowTranError.Designer.vb">
+      <DependentUpon>frmShowTranError.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmShowTranError.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmTransaction.designer.vb" />
+    <Compile Include="frmTransaction.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="My Project\AssemblyInfo.vb" />
+    <Compile Include="My Project\Application.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Application.myapp</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Resources.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Settings.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="ResVN\frmForeignNoReg_VN.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>frmForeignNoReg_VN.resx</DependentUpon>
+    </Compile>
+    <Compile Include="ResVN\frmFunction_VN.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>frmFunction_VN.resx</DependentUpon>
+    </Compile>
+    <Compile Include="ResVN\frmReportView_VN.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>frmReportView_VN.resx</DependentUpon>
+    </Compile>
+    <Compile Include="rptReports.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="rptReportType2.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="rptReportType3.vb">
+      <SubType>Component</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Controls\ucGridControl.resx">
+      <DependentUpon>ucGridControl.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmMaintenanceEx.resx">
+      <DependentUpon>frmMaintenanceEx.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmErrMsg.resx">
+      <DependentUpon>frmErrMsg.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmExportParameter.resx">
+      <DependentUpon>frmExportParameter.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmForeignNoReg.resx">
+      <DependentUpon>frmForeignNoReg.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmFTPClient.resx">
+      <DependentUpon>frmFTPClient.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmFunction.resx">
+      <DependentUpon>frmFunction.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmLookUp.resx">
+      <DependentUpon>frmLookUp.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmMaintenance.resx">
+      <DependentUpon>frmMaintenance.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmProcess.resx">
+      <DependentUpon>frmProcess.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmReportView.resx">
+      <DependentUpon>frmReportView.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmSearch.resx">
+      <DependentUpon>frmSearch.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmSelectBranch.resx">
+      <DependentUpon>frmSelectBranch.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmSelectRpt.resx">
+      <DependentUpon>frmSelectRpt.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmSelectTLTX.resx">
+      <DependentUpon>frmSelectTLTX.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmSelectVsdBrid.resx">
+      <DependentUpon>frmSelectVsdBrid.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmShowTranError.resx">
+      <DependentUpon>frmShowTranError.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmTransaction.resx">
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="My Project\licenses.licx" />
+    <EmbeddedResource Include="My Project\Resources.resx">
+      <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ResVN\frmForeignNoReg_VN.resx">
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>frmForeignNoReg_VN.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ResVN\frmFunction_VN.resx">
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>frmFunction_VN.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ResVN\frmLookUp_VN.resx">
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ResVN\frmReportList_VN.resx">
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ResVN\frmReportParameter_VN.resx">
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ResVN\frmReportView_VN.resx">
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>frmReportView_VN.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ResVN\frmSearch_VN.resx">
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ResVN\frmTransaction_VN.resx">
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="rptMF001.resx">
+      <DependentUpon>rptMF001.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="rptMF002.resx">
+      <DependentUpon>rptMF002.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="app.config" />
+    <None Include="ClassDiagram1.cd" />
+    <None Include="My Project\Application.myapp">
+      <Generator>MyApplicationCodeGenerator</Generator>
+      <LastGenOutput>Application.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="My Project\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <CustomToolNamespace>My</CustomToolNamespace>
+      <LastGenOutput>Settings.Designer.vb</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Sats.BDSChannel\Sats.BDSChannel.vbproj">
+      <Project>{A5A2CE71-8230-4E2C-A6ED-890EFE69CAAD}</Project>
+      <Name>Sats.BDSChannel</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Sats.ClientCA\Sats.ClientCA.vbproj">
+      <Project>{CDDA0B7A-F569-4E1D-9BAB-ECE0F4F82803}</Project>
+      <Name>Sats.ClientCA</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Sats.CommonLibrary\Sats.CommonLibrary.vbproj">
+      <Project>{C138351F-E4D5-4512-A868-678035EF592D}</Project>
+      <Name>Sats.CommonLibrary</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Sats.SQLEngine\Sats.SQLEngine.vbproj">
+      <Project>{A8B9BC20-A3DE-4618-B4FE-974120867810}</Project>
+      <Name>Sats.SQLEngine</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Sats.Utils\Sats.Utils.csproj">
+      <Project>{20A31C06-9280-4C80-BBCA-17DB78CDB706}</Project>
+      <Name>Sats.Utils</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Service Include="{94E38DFF-614B-4CBD-B67C-F211BB35CE8B}" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

@@ -1,0 +1,1275 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+Sats
+</name>
+</assembly>
+<members>
+<member name="P:Sats.My.Resources.frmBatch_VN.ResourceManager">
+	<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member><member name="P:Sats.My.Resources.frmBatch_VN.Culture">
+	<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member><member name="P:Sats.My.Resources.frmBatch_VN.btnCancel">
+	<summary>
+  Looks up a localized string similar to &amp;Thoát.
+</summary>
+</member><member name="P:Sats.My.Resources.frmBatch_VN.btnOk">
+	<summary>
+  Looks up a localized string similar to &amp;Chấp nhận.
+</summary>
+</member><member name="P:Sats.My.Resources.frmBatch_VN.ErrorMsg_BEGINOFDAY">
+	<summary>
+  Looks up a localized string similar to Chưa kết thúc ngày !.
+</summary>
+</member><member name="P:Sats.My.Resources.frmBatch_VN.ErrorMsg_ENDOFDAY">
+	<summary>
+  Looks up a localized string similar to Đã kết thúc ngày !.
+</summary>
+</member><member name="P:Sats.My.Resources.frmBatch_VN.Faild">
+	<summary>
+  Looks up a localized string similar to Đã có lỗi khi thực hiện, liên hệ với quản trị hệ thống để được giúp đỡ!.
+</summary>
+</member><member name="P:Sats.My.Resources.frmBatch_VN.frmBatch_BEGINOFDAY">
+	<summary>
+  Looks up a localized string similar to Bắt đầu ngày.
+</summary>
+</member><member name="P:Sats.My.Resources.frmBatch_VN.frmBatch_ENDOFDAY">
+	<summary>
+  Looks up a localized string similar to Kết thúc ngày.
+</summary>
+</member><member name="P:Sats.My.Resources.frmBatch_VN.grbSA">
+	<summary>
+  Looks up a localized string similar to .
+</summary>
+</member><member name="P:Sats.My.Resources.frmBatch_VN.lbBranchId">
+	<summary>
+  Looks up a localized string similar to Chi nhánh.
+</summary>
+</member><member name="P:Sats.My.Resources.frmBatch_VN.lbCaption_BEGINOFDAY">
+	<summary>
+  Looks up a localized string similar to Bắt đầu ngày.
+</summary>
+</member><member name="P:Sats.My.Resources.frmBatch_VN.lbCaption_ENDOFDAY">
+	<summary>
+  Looks up a localized string similar to Kết thúc ngày.
+</summary>
+</member><member name="P:Sats.My.Resources.frmBatch_VN.lblCurrDate_BEGINOFDAY">
+	<summary>
+  Looks up a localized string similar to Ngày bắt đầu.
+</summary>
+</member><member name="P:Sats.My.Resources.frmBatch_VN.lblCurrDate_ENDOFDAY">
+	<summary>
+  Looks up a localized string similar to Ngày kết thúc.
+</summary>
+</member><member name="P:Sats.My.Resources.frmBatch_VN.Success">
+	<summary>
+  Looks up a localized string similar to Giao dịch thành công!.
+</summary>
+</member><member name="P:Sats.My.Resources.frmBatch_VN.Title">
+	<summary>
+  Looks up a localized string similar to Thông báo.
+</summary>
+</member><member name="P:Sats.My.Resources.frmBatch_VN.YesNo">
+	<summary>
+  Looks up a localized string similar to Bạn có muốn bỏ qua các giao dịch chưa xác nhận để kết thúc ngày hay không ?.
+</summary>
+</member><member name="T:Sats.My.Resources.frmBatch_VN">
+	<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member><member name="P:Sats.My.Resources.AppCore_frmSearch_VN.ResourceManager">
+	<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member><member name="P:Sats.My.Resources.AppCore_frmSearch_VN.Culture">
+	<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member><member name="P:Sats.My.Resources.AppCore_frmSearch_VN.btnAdd">
+	<summary>
+  Looks up a localized string similar to 4.
+</summary>
+</member><member name="P:Sats.My.Resources.AppCore_frmSearch_VN.btnBrown">
+	<summary>
+  Looks up a localized string similar to ....
+</summary>
+</member><member name="P:Sats.My.Resources.AppCore_frmSearch_VN.btnLoad">
+	<summary>
+  Looks up a localized string similar to Load DL.
+</summary>
+</member><member name="P:Sats.My.Resources.AppCore_frmSearch_VN.btnNext">
+	<summary>
+  Looks up a localized string similar to 4.
+</summary>
+</member><member name="P:Sats.My.Resources.AppCore_frmSearch_VN.btnPre">
+	<summary>
+  Looks up a localized string similar to 3.
+</summary>
+</member><member name="P:Sats.My.Resources.AppCore_frmSearch_VN.btnRemove">
+	<summary>
+  Looks up a localized string similar to 3.
+</summary>
+</member><member name="P:Sats.My.Resources.AppCore_frmSearch_VN.btnRemoveAll">
+	<summary>
+  Looks up a localized string similar to 7.
+</summary>
+</member><member name="P:Sats.My.Resources.AppCore_frmSearch_VN.btnSearch">
+	<summary>
+  Looks up a localized string similar to &amp;Tìm kiếm.
+</summary>
+</member><member name="P:Sats.My.Resources.AppCore_frmSearch_VN.Footer">
+	<summary>
+  Looks up a localized string similar to Đây là footer, không thể xem, sửa, xoá dữ liệu!.
+</summary>
+</member><member name="P:Sats.My.Resources.AppCore_frmSearch_VN.grbCondition">
+	<summary>
+  Looks up a localized string similar to Điều kiện.
+</summary>
+</member><member name="P:Sats.My.Resources.AppCore_frmSearch_VN.grbConditionList">
+	<summary>
+  Looks up a localized string similar to Danh sách điều kiện tìm kiếm:.
+</summary>
+</member><member name="P:Sats.My.Resources.AppCore_frmSearch_VN.grbSearchFilter">
+	<summary>
+  Looks up a localized string similar to Điều kiện tìm kiếm:.
+</summary>
+</member><member name="P:Sats.My.Resources.AppCore_frmSearch_VN.grbSearchResult">
+	<summary>
+  Looks up a localized string similar to Kết quả tìm kiếm:.
+</summary>
+</member><member name="P:Sats.My.Resources.AppCore_frmSearch_VN.GridEx_FooterRow">
+	<summary>
+  Looks up a localized string similar to Tổng số bản ghi tìm kiếm: .
+</summary>
+</member><member name="P:Sats.My.Resources.AppCore_frmSearch_VN.GridEx_FooterRowFrom">
+	<summary>
+  Looks up a localized string similar to Từ dòng .
+</summary>
+</member><member name="P:Sats.My.Resources.AppCore_frmSearch_VN.GridEx_FooterRowIn">
+	<summary>
+  Looks up a localized string similar to trong tổng số @ dòng.
+</summary>
+</member><member name="P:Sats.My.Resources.AppCore_frmSearch_VN.GridEx_FooterRowTo">
+	<summary>
+  Looks up a localized string similar to đến dòng .
+</summary>
+</member><member name="P:Sats.My.Resources.AppCore_frmSearch_VN.GridEx_GroupByRow">
+	<summary>
+  Looks up a localized string similar to Hãy kéo cột cần nhóm vào đây! (F6: Focus to grid, F7: Prev, F8: Next, F9: Choose).
+</summary>
+</member><member name="P:Sats.My.Resources.AppCore_frmSearch_VN.grpFileInfo">
+	<summary>
+  Looks up a localized string similar to Thông tin file.
+</summary>
+</member><member name="P:Sats.My.Resources.AppCore_frmSearch_VN.lbField">
+	<summary>
+  Looks up a localized string similar to Tiêu chí:.
+</summary>
+</member><member name="P:Sats.My.Resources.AppCore_frmSearch_VN.lblFilePath">
+	<summary>
+  Looks up a localized string similar to Đường dẫn file:.
+</summary>
+</member><member name="P:Sats.My.Resources.AppCore_frmSearch_VN.lblFileType">
+	<summary>
+  Looks up a localized string similar to Loại file GD:.
+</summary>
+</member><member name="P:Sats.My.Resources.AppCore_frmSearch_VN.lblNum">
+	<summary>
+  Looks up a localized string similar to Số dòng:.
+</summary>
+</member><member name="P:Sats.My.Resources.AppCore_frmSearch_VN.lbOperator">
+	<summary>
+  Looks up a localized string similar to Điều kiện:.
+</summary>
+</member><member name="P:Sats.My.Resources.AppCore_frmSearch_VN.lbValue">
+	<summary>
+  Looks up a localized string similar to Giá trị:.
+</summary>
+</member><member name="P:Sats.My.Resources.AppCore_frmSearch_VN.Searched">
+	<summary>
+  Looks up a localized string similar to Tổng số bản ghi: .
+</summary>
+</member><member name="T:Sats.My.Resources.AppCore_frmSearch_VN">
+	<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member><member name="P:Sats.My.Resources.frmSysVarSetting_VN.ResourceManager">
+	<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member><member name="P:Sats.My.Resources.frmSysVarSetting_VN.Culture">
+	<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member><member name="P:Sats.My.Resources.frmSysVarSetting_VN.btnAddOne">
+	<summary>
+  Looks up a localized string similar to 4.
+</summary>
+</member><member name="P:Sats.My.Resources.frmSysVarSetting_VN.btnCancel">
+	<summary>
+  Looks up a localized string similar to &amp;Thoát.
+</summary>
+</member><member name="P:Sats.My.Resources.frmSysVarSetting_VN.btnInitAll">
+	<summary>
+  Looks up a localized string similar to Khởi tạo năm.
+</summary>
+</member><member name="P:Sats.My.Resources.frmSysVarSetting_VN.btnOk">
+	<summary>
+  Looks up a localized string similar to &amp;Chấp nhận.
+</summary>
+</member><member name="P:Sats.My.Resources.frmSysVarSetting_VN.btnRemoveAll">
+	<summary>
+  Looks up a localized string similar to 7.
+</summary>
+</member><member name="P:Sats.My.Resources.frmSysVarSetting_VN.btnRemoveOne">
+	<summary>
+  Looks up a localized string similar to 3.
+</summary>
+</member><member name="P:Sats.My.Resources.frmSysVarSetting_VN.ConfirmAddOne">
+	<summary>
+  Looks up a localized string similar to Bạn có chắc chắn muốn thêm ngày này vào danh sách hay không?.
+</summary>
+</member><member name="P:Sats.My.Resources.frmSysVarSetting_VN.ConfirmRemoveAll">
+	<summary>
+  Looks up a localized string similar to Bạn có chắc chắn muốn xóa toàn bộ ngày nghỉ trong danh sách hay không?.
+</summary>
+</member><member name="P:Sats.My.Resources.frmSysVarSetting_VN.ConfirmRemoveOne">
+	<summary>
+  Looks up a localized string similar to Bạn có chắc chắn muốn xóa ngày nghỉ này trong danh sách hay không?.
+</summary>
+</member><member name="P:Sats.My.Resources.frmSysVarSetting_VN.DateExist">
+	<summary>
+  Looks up a localized string similar to Ngày nghỉ này đã tồn tại trong danh sách.
+</summary>
+</member><member name="P:Sats.My.Resources.frmSysVarSetting_VN.EditSuccessful">
+	<summary>
+  Looks up a localized string similar to Cập nhật dữ liệu thành công!.
+</summary>
+</member><member name="P:Sats.My.Resources.frmSysVarSetting_VN.EmptyListBox">
+	<summary>
+  Looks up a localized string similar to Danh sách ngày nghỉ đang trống.
+</summary>
+</member><member name="P:Sats.My.Resources.frmSysVarSetting_VN.frmSysVarSetting">
+	<summary>
+  Looks up a localized string similar to Chức năng Thiết lập tham số hệ thống.
+</summary>
+</member><member name="P:Sats.My.Resources.frmSysVarSetting_VN.grbSA">
+	<summary>
+  Looks up a localized string similar to .
+</summary>
+</member><member name="P:Sats.My.Resources.frmSysVarSetting_VN.grbSF">
+	<summary>
+  Looks up a localized string similar to Quỹ hỗ trợ thanh toán.
+</summary>
+</member><member name="P:Sats.My.Resources.frmSysVarSetting_VN.grbSYSTEM">
+	<summary>
+  Looks up a localized string similar to Cấu hình.
+</summary>
+</member><member name="P:Sats.My.Resources.frmSysVarSetting_VN.InitAllError">
+	<summary>
+  Looks up a localized string similar to Nhập năm khởi tạo không chính xác. Vui lòng thực hiện lại việc khởi tạo năm.
+</summary>
+</member><member name="P:Sats.My.Resources.frmSysVarSetting_VN.InitAllErrorRange">
+	<summary>
+  Looks up a localized string similar to Chỉ cho phép khởi tạo năm từ 2000 đến 2020. Vui lòng thực hiện lại việc khởi tạo năm!.
+</summary>
+</member><member name="P:Sats.My.Resources.frmSysVarSetting_VN.InitAllSuccessfull">
+	<summary>
+  Looks up a localized string similar to Khởi tạo năm thành công!.
+</summary>
+</member><member name="P:Sats.My.Resources.frmSysVarSetting_VN.lbAnnualFundRate">
+	<summary>
+  Looks up a localized string similar to Tỉ lệ đóng góp hàng năm theo giá trị giao dịch MG(%).
+</summary>
+</member><member name="P:Sats.My.Resources.frmSysVarSetting_VN.lbBranchId">
+	<summary>
+  Looks up a localized string similar to Chi nhánh.
+</summary>
+</member><member name="P:Sats.My.Resources.frmSysVarSetting_VN.lbCaption">
+	<summary>
+  Looks up a localized string similar to Thiết lập tham số hệ thống.
+</summary>
+</member><member name="P:Sats.My.Resources.frmSysVarSetting_VN.lbChooseDate">
+	<summary>
+  Looks up a localized string similar to Chọn ngày nghỉ cho hệ thống:.
+</summary>
+</member><member name="P:Sats.My.Resources.frmSysVarSetting_VN.lbDateLimitLevel2">
+	<summary>
+  Looks up a localized string similar to Ngày giới hạn nếu quá sẽ tính lãi phạt mức 2(ngày).
+</summary>
+</member><member name="P:Sats.My.Resources.frmSysVarSetting_VN.lbFTPPassword">
+	<summary>
+  Looks up a localized string similar to Mật khẩu kết nối FTP.
+</summary>
+</member><member name="P:Sats.My.Resources.frmSysVarSetting_VN.lbFTPServerAddress">
+	<summary>
+  Looks up a localized string similar to Địa chỉ máy chủ FTP.
+</summary>
+</member><member name="P:Sats.My.Resources.frmSysVarSetting_VN.lbFTPServerPort">
+	<summary>
+  Looks up a localized string similar to Cổng kết nối máy chủ FTP.
+</summary>
+</member><member name="P:Sats.My.Resources.frmSysVarSetting_VN.lbFTPUserName">
+	<summary>
+  Looks up a localized string similar to Tên user kết nối FTP.
+</summary>
+</member><member name="P:Sats.My.Resources.frmSysVarSetting_VN.lbInterestRateLevel1">
+	<summary>
+  Looks up a localized string similar to Lãi phạt mức 1 (%/ngày).
+</summary>
+</member><member name="P:Sats.My.Resources.frmSysVarSetting_VN.lbInterestRateLevel2">
+	<summary>
+  Looks up a localized string similar to Lãi phạt mức 2 (%/ngày).
+</summary>
+</member><member name="P:Sats.My.Resources.frmSysVarSetting_VN.lbListDate">
+	<summary>
+  Looks up a localized string similar to Danh sách ngày nghỉ/tháng.
+</summary>
+</member><member name="P:Sats.My.Resources.frmSysVarSetting_VN.lbMaxAnnualFund">
+	<summary>
+  Looks up a localized string similar to Số tiền đóng góp tối đa của TVLK hàng năm (triệu).
+</summary>
+</member><member name="P:Sats.My.Resources.frmSysVarSetting_VN.lbMaxRowSearch">
+	<summary>
+  Looks up a localized string similar to Số dòng tra cứu tối đa.
+</summary>
+</member><member name="P:Sats.My.Resources.frmSysVarSetting_VN.lbSearchResultPath">
+	<summary>
+  Looks up a localized string similar to Địa chỉ gốc máy chủ FTP.
+</summary>
+</member><member name="P:Sats.My.Resources.frmSysVarSetting_VN.tpRA">
+	<summary>
+  Looks up a localized string similar to Phân hệ RA.
+</summary>
+</member><member name="P:Sats.My.Resources.frmSysVarSetting_VN.tpSA">
+	<summary>
+  Looks up a localized string similar to Phân hệ SA.
+</summary>
+</member><member name="P:Sats.My.Resources.frmSysVarSetting_VN.tpSF">
+	<summary>
+  Looks up a localized string similar to Phân hệ SF.
+</summary>
+</member><member name="P:Sats.My.Resources.frmSysVarSetting_VN.tpSYSTEM">
+	<summary>
+  Looks up a localized string similar to Cấu hình hệ thống.
+</summary>
+</member><member name="T:Sats.My.Resources.frmSysVarSetting_VN">
+	<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member><member name="P:Sats.My.Resources.frmChangePassword_VN.ResourceManager">
+	<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member><member name="P:Sats.My.Resources.frmChangePassword_VN.Culture">
+	<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member><member name="P:Sats.My.Resources.frmChangePassword_VN.btnCancel">
+	<summary>
+  Looks up a localized string similar to &amp;Thoát.
+</summary>
+</member><member name="P:Sats.My.Resources.frmChangePassword_VN.btnOK">
+	<summary>
+  Looks up a localized string similar to &amp;Chấp nhận.
+</summary>
+</member><member name="P:Sats.My.Resources.frmChangePassword_VN.frmChangePassword">
+	<summary>
+  Looks up a localized string similar to Đổi mật khẩu.
+</summary>
+</member><member name="P:Sats.My.Resources.frmChangePassword_VN.lblCaption">
+	<summary>
+  Looks up a localized string similar to Đổi mật khẩu.
+</summary>
+</member><member name="P:Sats.My.Resources.frmChangePassword_VN.lblNewPassword">
+	<summary>
+  Looks up a localized string similar to Mật khẩu mới.
+</summary>
+</member><member name="P:Sats.My.Resources.frmChangePassword_VN.lblOldPassword">
+	<summary>
+  Looks up a localized string similar to Mật khẩu cũ.
+</summary>
+</member><member name="P:Sats.My.Resources.frmChangePassword_VN.lblReType">
+	<summary>
+  Looks up a localized string similar to Xác nhận lại.
+</summary>
+</member><member name="P:Sats.My.Resources.frmChangePassword_VN.lblUserName">
+	<summary>
+  Looks up a localized string similar to Tên đăng nhập.
+</summary>
+</member><member name="P:Sats.My.Resources.frmChangePassword_VN.NoFindPassword">
+	<summary>
+  Looks up a localized string similar to Mật khẩu cũ không đúng!.
+</summary>
+</member><member name="P:Sats.My.Resources.frmChangePassword_VN.Password">
+	<summary>
+  Looks up a localized string similar to Mật khẩu không khớp!.
+</summary>
+</member><member name="P:Sats.My.Resources.frmChangePassword_VN.PasswordNotEmpty">
+	<summary>
+  Looks up a localized string similar to Mật khẩu không được để trống!.
+</summary>
+</member><member name="P:Sats.My.Resources.frmChangePassword_VN.SavingFailed">
+	<summary>
+  Looks up a localized string similar to Đổi mật khẩu không thành công! Mật khẩu tối thiểu 8 ký tự bao gồm cả chữ và số.
+</summary>
+</member><member name="P:Sats.My.Resources.frmChangePassword_VN.Success">
+	<summary>
+  Looks up a localized string similar to Đổi mật khẩu thành công!.
+</summary>
+</member><member name="T:Sats.My.Resources.frmChangePassword_VN">
+	<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member><member name="P:Sats.My.Resources.frmTLTX_VN.ResourceManager">
+	<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member><member name="P:Sats.My.Resources.frmTLTX_VN.Culture">
+	<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member><member name="P:Sats.My.Resources.frmTLTX_VN.btnCancel">
+	<summary>
+  Looks up a localized string similar to &amp;Hủy bỏ.
+</summary>
+</member><member name="P:Sats.My.Resources.frmTLTX_VN.btnOK">
+	<summary>
+  Looks up a localized string similar to &amp;Chấp nhận.
+</summary>
+</member><member name="P:Sats.My.Resources.frmTLTX_VN.btnOK1">
+	<summary>
+  Looks up a localized string similar to &amp;Chấp nhận.
+</summary>
+</member><member name="P:Sats.My.Resources.frmTLTX_VN.EditSuccessful">
+	<summary>
+  Looks up a localized string similar to Sửa đổi thành công.
+</summary>
+</member><member name="P:Sats.My.Resources.frmTLTX_VN.frmTLTX">
+	<summary>
+  Looks up a localized string similar to Quản lý cấp mức duyệt cho giao dịch.
+</summary>
+</member><member name="P:Sats.My.Resources.frmTLTX_VN.InitDialogFailed">
+	<summary>
+  Looks up a localized string similar to Không khởi tạo được cửa sổ!.
+</summary>
+</member><member name="P:Sats.My.Resources.frmTLTX_VN.lbCaption">
+	<summary>
+  Looks up a localized string similar to Định nghĩa mức duyệt giao dịch.
+</summary>
+</member><member name="P:Sats.My.Resources.frmTLTX_VN.lbLevel1">
+	<summary>
+  Looks up a localized string similar to Duyệt mức 1.
+</summary>
+</member><member name="P:Sats.My.Resources.frmTLTX_VN.lbLevel2">
+	<summary>
+  Looks up a localized string similar to Duyệt mức 2.
+</summary>
+</member><member name="P:Sats.My.Resources.frmTLTX_VN.lbLevel3">
+	<summary>
+  Looks up a localized string similar to Duyệt mức 3.
+</summary>
+</member><member name="P:Sats.My.Resources.frmTLTX_VN.lbTLTXCD">
+	<summary>
+  Looks up a localized string similar to Mã giao dịch.
+</summary>
+</member><member name="P:Sats.My.Resources.frmTLTX_VN.lbTXDESC">
+	<summary>
+  Looks up a localized string similar to Tên giao dịch.
+</summary>
+</member><member name="T:Sats.My.Resources.frmTLTX_VN">
+	<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member><member name="P:Sats.My.Resources.frmExportData_VN.ResourceManager">
+	<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member><member name="P:Sats.My.Resources.frmExportData_VN.Culture">
+	<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member><member name="P:Sats.My.Resources.frmExportData_VN.AddnewSuccessful">
+	<summary>
+  Looks up a localized string similar to Kết xuất dữ liệu thành công!.
+</summary>
+</member><member name="P:Sats.My.Resources.frmExportData_VN.btnCancel">
+	<summary>
+  Looks up a localized string similar to &amp;Thoát.
+</summary>
+</member><member name="P:Sats.My.Resources.frmExportData_VN.btnOk">
+	<summary>
+  Looks up a localized string similar to &amp;Kết xuất.
+</summary>
+</member><member name="P:Sats.My.Resources.frmExportData_VN.cbIs">
+	<summary>
+  Looks up a localized string similar to Thông tin Tổ chức phát hành.
+</summary>
+</member><member name="P:Sats.My.Resources.frmExportData_VN.cbIs1">
+	<summary>
+  Looks up a localized string similar to Thông tin TCPH.
+</summary>
+</member><member name="P:Sats.My.Resources.frmExportData_VN.cbMi">
+	<summary>
+  Looks up a localized string similar to Thông tin Thành viên lưu ý.
+</summary>
+</member><member name="P:Sats.My.Resources.frmExportData_VN.cbMi1">
+	<summary>
+  Looks up a localized string similar to Thông tin Ngân hàng.
+</summary>
+</member><member name="P:Sats.My.Resources.frmExportData_VN.cbRi">
+	<summary>
+  Looks up a localized string similar to Thông tin nhà đầu tư cho TPRL.
+</summary>
+</member><member name="P:Sats.My.Resources.frmExportData_VN.cbRoom">
+	<summary>
+  Looks up a localized string similar to Thông tin số liệu Room.
+</summary>
+</member><member name="P:Sats.My.Resources.frmExportData_VN.cbSi">
+	<summary>
+  Looks up a localized string similar to Thông tin Chứng khoán.
+</summary>
+</member><member name="P:Sats.My.Resources.frmExportData_VN.cbSi1">
+	<summary>
+  Looks up a localized string similar to Thông tin TP.
+</summary>
+</member><member name="P:Sats.My.Resources.frmExportData_VN.cbTrans">
+	<summary>
+  Looks up a localized string similar to Giao dịch NHNN.
+</summary>
+</member><member name="P:Sats.My.Resources.frmExportData_VN.cbTransRj">
+	<summary>
+  Looks up a localized string similar to Kết xuất số liệu Hủy giao dịch TPRL.
+</summary>
+</member><member name="P:Sats.My.Resources.frmExportData_VN.FileExist">
+	<summary>
+  Looks up a localized string similar to File '@' đã tồn tại. Bạn có muốn ghi đè lên file cũ không?.
+</summary>
+</member><member name="P:Sats.My.Resources.frmExportData_VN.frmExportData">
+	<summary>
+  Looks up a localized string similar to Kết xuất số liệu.
+</summary>
+</member><member name="P:Sats.My.Resources.frmExportData_VN.grbInfoBanks">
+	<summary>
+  Looks up a localized string similar to Thông tin.
+</summary>
+</member><member name="P:Sats.My.Resources.frmExportData_VN.grbInfoStocks">
+	<summary>
+  Looks up a localized string similar to Thông tin.
+</summary>
+</member><member name="P:Sats.My.Resources.frmExportData_VN.lbBranch">
+	<summary>
+  Looks up a localized string similar to Chi nhánh.
+</summary>
+</member><member name="P:Sats.My.Resources.frmExportData_VN.lbBranch2">
+	<summary>
+  Looks up a localized string similar to Chi nhánh.
+</summary>
+</member><member name="P:Sats.My.Resources.frmExportData_VN.lbBranch3">
+	<summary>
+  Looks up a localized string similar to Chi nhánh.
+</summary>
+</member><member name="P:Sats.My.Resources.frmExportData_VN.lbBranch4">
+	<summary>
+  Looks up a localized string similar to Chi nhánh.
+</summary>
+</member><member name="P:Sats.My.Resources.frmExportData_VN.lbBranch5">
+	<summary>
+  Looks up a localized string similar to Chi nhánh.
+</summary>
+</member><member name="P:Sats.My.Resources.frmExportData_VN.lbBranch6">
+	<summary>
+  Looks up a localized string similar to Chi nhánh.
+</summary>
+</member><member name="P:Sats.My.Resources.frmExportData_VN.lbCaption">
+	<summary>
+  Looks up a localized string similar to Kết xuất số liệu.
+</summary>
+</member><member name="P:Sats.My.Resources.frmExportData_VN.lbCsErrType">
+	<summary>
+  Looks up a localized string similar to Lý do lùi thanh toán.
+</summary>
+</member><member name="P:Sats.My.Resources.frmExportData_VN.lbDate">
+	<summary>
+  Looks up a localized string similar to Ngày giao dịch.
+</summary>
+</member><member name="P:Sats.My.Resources.frmExportData_VN.lbDate2">
+	<summary>
+  Looks up a localized string similar to Ngày giao dịch.
+</summary>
+</member><member name="P:Sats.My.Resources.frmExportData_VN.lbDate3">
+	<summary>
+  Looks up a localized string similar to Ngày giao dịch.
+</summary>
+</member><member name="P:Sats.My.Resources.frmExportData_VN.lbDate4">
+	<summary>
+  Looks up a localized string similar to Ngày giao dịch.
+</summary>
+</member><member name="P:Sats.My.Resources.frmExportData_VN.lbFrequence">
+	<summary>
+  Looks up a localized string similar to Chu kỳ thanh toán.
+</summary>
+</member><member name="P:Sats.My.Resources.frmExportData_VN.lbFrequence2">
+	<summary>
+  Looks up a localized string similar to Thời điểm kết xuất.
+</summary>
+</member><member name="P:Sats.My.Resources.frmExportData_VN.lbFromDate">
+	<summary>
+  Looks up a localized string similar to Từ.
+</summary>
+</member><member name="P:Sats.My.Resources.frmExportData_VN.lbPayMode">
+	<summary>
+  Looks up a localized string similar to Hình thức thanh toán.
+</summary>
+</member><member name="P:Sats.My.Resources.frmExportData_VN.lbToDate">
+	<summary>
+  Looks up a localized string similar to Đến.
+</summary>
+</member><member name="P:Sats.My.Resources.frmExportData_VN.NotSelectValue">
+	<summary>
+  Looks up a localized string similar to Bạn chưa chọn loại thông tin kết xuất!.
+</summary>
+</member><member name="P:Sats.My.Resources.frmExportData_VN.rbBiPartite">
+	<summary>
+  Looks up a localized string similar to TT Song phương.
+</summary>
+</member><member name="P:Sats.My.Resources.frmExportData_VN.rbDirect">
+	<summary>
+  Looks up a localized string similar to TT Trực tiếp.
+</summary>
+</member><member name="P:Sats.My.Resources.frmExportData_VN.rbMultiPartite">
+	<summary>
+  Looks up a localized string similar to TT Đa phương.
+</summary>
+</member><member name="P:Sats.My.Resources.frmExportData_VN.tpBanks">
+	<summary>
+  Looks up a localized string similar to Kết xuất số liệu cho NHCĐ Thanh toán.
+</summary>
+</member><member name="P:Sats.My.Resources.frmExportData_VN.tpBanks2">
+	<summary>
+  Looks up a localized string similar to Kết xuất số liệu Thanh toán (lùi TT) NHCĐTT.
+</summary>
+</member><member name="P:Sats.My.Resources.frmExportData_VN.tpBanks3">
+	<summary>
+  Looks up a localized string similar to Kết xuất số liệu Giải tỏa (lùi TT) NHCĐTT.
+</summary>
+</member><member name="P:Sats.My.Resources.frmExportData_VN.tpCW">
+	<summary>
+  Looks up a localized string similar to Kết xuất số liệu Chứng quyền.
+</summary>
+</member><member name="P:Sats.My.Resources.frmExportData_VN.tpNHNN">
+	<summary>
+  Looks up a localized string similar to Kết xuất số liệu cho Sở giao dịch NHNN.
+</summary>
+</member><member name="P:Sats.My.Resources.frmExportData_VN.tpStocks">
+	<summary>
+  Looks up a localized string similar to Kết xuất số liệu.
+</summary>
+</member><member name="T:Sats.My.Resources.frmExportData_VN">
+	<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member><member name="P:Sats.My.Resources.frmRGMI_VN.ResourceManager">
+	<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member><member name="P:Sats.My.Resources.frmRGMI_VN.Culture">
+	<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member><member name="P:Sats.My.Resources.frmRGMI_VN.AddnewSuccessful">
+	<summary>
+  Looks up a localized string similar to Thêm mới dữ liệu thành công.
+</summary>
+</member><member name="P:Sats.My.Resources.frmRGMI_VN.btnApply">
+	<summary>
+  Looks up a localized string similar to &amp;Apply.
+</summary>
+</member><member name="P:Sats.My.Resources.frmRGMI_VN.btnCancel">
+	<summary>
+  Looks up a localized string similar to &amp;Thoát.
+</summary>
+</member><member name="P:Sats.My.Resources.frmRGMI_VN.btnOk">
+	<summary>
+  Looks up a localized string similar to &amp;Chấp nhận.
+</summary>
+</member><member name="P:Sats.My.Resources.frmRGMI_VN.cboType">
+	<summary>
+  Looks up a localized string similar to Loại hình.
+</summary>
+</member><member name="P:Sats.My.Resources.frmRGMI_VN.EditSuccessful">
+	<summary>
+  Looks up a localized string similar to Cập nhật dữ liệu thành công.
+</summary>
+</member><member name="P:Sats.My.Resources.frmRGMI_VN.ERR_RG_MI_ACCTNO_DUPLICATED">
+	<summary>
+  Looks up a localized string similar to Mã đăng ký TVLK đã tồn tại ! Xin vui lòng nhập lại.
+</summary>
+</member><member name="P:Sats.My.Resources.frmRGMI_VN.ERR_RG_MI_BUSSINESSNO_DUPLICATED_IS">
+	<summary>
+  Looks up a localized string similar to TVLK này có số ĐKKD và ngày cấp trùng với số ĐKKD và ngày cấp của tổ chức "ISNAME", bạn có chắc chắn 2 tổ chức này là một không? Chọn Yes để chấp nhận hoặc No để hủy bỏ việc thêm mới TVLK.
+</summary>
+</member><member name="P:Sats.My.Resources.frmRGMI_VN.ERR_RG_MI_CODETRADE_DUPLICATED">
+	<summary>
+  Looks up a localized string similar to Mã giao dịch TVLK đã tồn tại ! Xin vui lòng nhập lại..
+</summary>
+</member><member name="P:Sats.My.Resources.frmRGMI_VN.FillCbCoMICODE">
+	<summary>
+  Looks up a localized string similar to Khi TVLK là TCLK bạn phải nhập trường GD qua.
+</summary>
+</member><member name="P:Sats.My.Resources.frmRGMI_VN.frmRGMI">
+	<summary>
+  Looks up a localized string similar to Đăng ký TVLK.
+</summary>
+</member><member name="P:Sats.My.Resources.frmRGMI_VN.grbInfor">
+	<summary>
+  Looks up a localized string similar to Thông tin.
+</summary>
+</member><member name="P:Sats.My.Resources.frmRGMI_VN.InitDialogFailed">
+	<summary>
+  Looks up a localized string similar to Khởi tạo cửa sổ thất bại.
+</summary>
+</member><member name="P:Sats.My.Resources.frmRGMI_VN.lbAcctNo">
+	<summary>
+  Looks up a localized string similar to Số TK.
+</summary>
+</member><member name="P:Sats.My.Resources.frmRGMI_VN.lbAddress">
+	<summary>
+  Looks up a localized string similar to Trụ sở chính.
+</summary>
+</member><member name="P:Sats.My.Resources.frmRGMI_VN.lbAutoID">
+	<summary>
+  Looks up a localized string similar to Mã tự tăng.
+</summary>
+</member><member name="P:Sats.My.Resources.frmRGMI_VN.lbBankAccount">
+	<summary>
+  Looks up a localized string similar to Số tài khoản.
+</summary>
+</member><member name="P:Sats.My.Resources.frmRGMI_VN.lbBankBranch">
+	<summary>
+  Looks up a localized string similar to Chi nhánh.
+</summary>
+</member><member name="P:Sats.My.Resources.frmRGMI_VN.lbBankName">
+	<summary>
+  Looks up a localized string similar to Ngân hàng.
+</summary>
+</member><member name="P:Sats.My.Resources.frmRGMI_VN.lbBusinessDate">
+	<summary>
+  Looks up a localized string similar to Ngày cấp.
+</summary>
+</member><member name="P:Sats.My.Resources.frmRGMI_VN.lbBusinessIssuer">
+	<summary>
+  Looks up a localized string similar to Nơi cấp.
+</summary>
+</member><member name="P:Sats.My.Resources.frmRGMI_VN.lbBusinessNo">
+	<summary>
+  Looks up a localized string similar to Số ĐKKD.
+</summary>
+</member><member name="P:Sats.My.Resources.frmRGMI_VN.lbCapital">
+	<summary>
+  Looks up a localized string similar to Vốn ĐL ('000).
+</summary>
+</member><member name="P:Sats.My.Resources.frmRGMI_VN.lbCapitalRule">
+	<summary>
+  Looks up a localized string similar to Vốn PĐ ('000).
+</summary>
+</member><member name="P:Sats.My.Resources.frmRGMI_VN.lbCaption">
+	<summary>
+  Looks up a localized string similar to Thêm mới TVLK.
+</summary>
+</member><member name="P:Sats.My.Resources.frmRGMI_VN.lbCaption0">
+	<summary>
+  Looks up a localized string similar to Thông tin quản lý TVLK.
+</summary>
+</member><member name="P:Sats.My.Resources.frmRGMI_VN.lbCaption1">
+	<summary>
+  Looks up a localized string similar to Thêm mới TVLK.
+</summary>
+</member><member name="P:Sats.My.Resources.frmRGMI_VN.lbCaption2">
+	<summary>
+  Looks up a localized string similar to Sửa thông tin TVLK.
+</summary>
+</member><member name="P:Sats.My.Resources.frmRGMI_VN.lbCode">
+	<summary>
+  Looks up a localized string similar to Mã GD.
+</summary>
+</member><member name="P:Sats.My.Resources.frmRGMI_VN.lbFax">
+	<summary>
+  Looks up a localized string similar to Fax.
+</summary>
+</member><member name="P:Sats.My.Resources.frmRGMI_VN.lbFirmDate">
+	<summary>
+  Looks up a localized string similar to Ngày cấp.
+</summary>
+</member><member name="P:Sats.My.Resources.frmRGMI_VN.lbFirmIssuer">
+	<summary>
+  Looks up a localized string similar to Nơi cấp.
+</summary>
+</member><member name="P:Sats.My.Resources.frmRGMI_VN.lbFirmNo">
+	<summary>
+  Looks up a localized string similar to Giấy phép CNTVLK.
+</summary>
+</member><member name="P:Sats.My.Resources.frmRGMI_VN.lbFoundationDate">
+	<summary>
+  Looks up a localized string similar to Ngày cấp.
+</summary>
+</member><member name="P:Sats.My.Resources.frmRGMI_VN.lbFoundationIssuer">
+	<summary>
+  Looks up a localized string similar to Nơi cấp.
+</summary>
+</member><member name="P:Sats.My.Resources.frmRGMI_VN.lbFoundationNo">
+	<summary>
+  Looks up a localized string similar to Giấy phép TL.
+</summary>
+</member><member name="P:Sats.My.Resources.frmRGMI_VN.lbGDBy">
+	<summary>
+  Looks up a localized string similar to GD qua.
+</summary>
+</member><member name="P:Sats.My.Resources.frmRGMI_VN.lbID">
+	<summary>
+  Looks up a localized string similar to Số ĐK TVLK.
+</summary>
+</member><member name="P:Sats.My.Resources.frmRGMI_VN.lbIsMember">
+	<summary>
+  Looks up a localized string similar to HĐ Tự doanh.
+</summary>
+</member><member name="P:Sats.My.Resources.frmRGMI_VN.lbName">
+	<summary>
+  Looks up a localized string similar to Tên TVLK.
+</summary>
+</member><member name="P:Sats.My.Resources.frmRGMI_VN.lbNameGD">
+	<summary>
+  Looks up a localized string similar to Tên GD.
+</summary>
+</member><member name="P:Sats.My.Resources.frmRGMI_VN.lbNationality">
+	<summary>
+  Looks up a localized string similar to Quốc tịch.
+</summary>
+</member><member name="P:Sats.My.Resources.frmRGMI_VN.lbNotes">
+	<summary>
+  Looks up a localized string similar to Ghi chú.
+</summary>
+</member><member name="P:Sats.My.Resources.frmRGMI_VN.lbOperationDate">
+	<summary>
+  Looks up a localized string similar to Ngày cấp.
+</summary>
+</member><member name="P:Sats.My.Resources.frmRGMI_VN.lbOperationIssuer">
+	<summary>
+  Looks up a localized string similar to Nơi cấp.
+</summary>
+</member><member name="P:Sats.My.Resources.frmRGMI_VN.lbOperationNo">
+	<summary>
+  Looks up a localized string similar to Giấy phép HĐLK.
+</summary>
+</member><member name="P:Sats.My.Resources.frmRGMI_VN.lbPhone">
+	<summary>
+  Looks up a localized string similar to Điện thoại.
+</summary>
+</member><member name="P:Sats.My.Resources.frmRGMI_VN.lbRepID">
+	<summary>
+  Looks up a localized string similar to Số CMND.
+</summary>
+</member><member name="P:Sats.My.Resources.frmRGMI_VN.lbRepName">
+	<summary>
+  Looks up a localized string similar to Người đại diện.
+</summary>
+</member><member name="P:Sats.My.Resources.frmRGMI_VN.lbRetrievalDate">
+	<summary>
+  Looks up a localized string similar to Ngày cấp.
+</summary>
+</member><member name="P:Sats.My.Resources.frmRGMI_VN.lbRetrievalNo">
+	<summary>
+  Looks up a localized string similar to QĐ chấm dứt HĐLK.
+</summary>
+</member><member name="P:Sats.My.Resources.frmRGMI_VN.lbStatus">
+	<summary>
+  Looks up a localized string similar to Trạng thái.
+</summary>
+</member><member name="P:Sats.My.Resources.frmRGMI_VN.lbType1">
+	<summary>
+  Looks up a localized string similar to Loại TVLK.
+</summary>
+</member><member name="P:Sats.My.Resources.frmRGMI_VN.lbType2">
+	<summary>
+  Looks up a localized string similar to Loại hình.
+</summary>
+</member><member name="P:Sats.My.Resources.frmRGMI_VN.Mandatory">
+	<summary>
+  Looks up a localized string similar to Trường "@" không được để trống.
+</summary>
+</member><member name="P:Sats.My.Resources.frmRGMI_VN.MICODEExist">
+	<summary>
+  Looks up a localized string similar to Số TK đã tồn tại.
+</summary>
+</member><member name="P:Sats.My.Resources.frmRGMI_VN.MICodeNumExist">
+	<summary>
+  Looks up a localized string similar to Mã ĐK đã tồn tại.
+</summary>
+</member><member name="P:Sats.My.Resources.frmRGMI_VN.MICodeTradeExist">
+	<summary>
+  Looks up a localized string similar to Mã GD đã tồn tại.
+</summary>
+</member><member name="P:Sats.My.Resources.frmRGMI_VN.MiMustIsForeign">
+	<summary>
+  Looks up a localized string similar to TVLK là chi nhánh NHNN nên quốc tịch phải là nước ngoài.
+</summary>
+</member><member name="P:Sats.My.Resources.frmRGMI_VN.MiMustIsLocal">
+	<summary>
+  Looks up a localized string similar to TVLK không phải là chi nhánh NHNN nên quốc tịch phải là Việt Nam.
+</summary>
+</member><member name="P:Sats.My.Resources.frmRGMI_VN.MINameExist">
+	<summary>
+  Looks up a localized string similar to Tên TVLK đã tồn tại.
+</summary>
+</member><member name="P:Sats.My.Resources.frmRGMI_VN.NumericDataType">
+	<summary>
+  Looks up a localized string similar to Trường "@" nhập không đúng.
+</summary>
+</member><member name="P:Sats.My.Resources.frmRGMI_VN.SavingFailed">
+	<summary>
+  Looks up a localized string similar to Cập nhật không thành công!.
+</summary>
+</member><member name="T:Sats.My.Resources.frmRGMI_VN">
+	<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member><member name="P:Sats.My.Resources.frmTLTXUserAuth_VN.ResourceManager">
+	<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member><member name="P:Sats.My.Resources.frmTLTXUserAuth_VN.Culture">
+	<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member><member name="P:Sats.My.Resources.frmTLTXUserAuth_VN.AddnewSuccessful">
+	<summary>
+  Looks up a localized string similar to Thêm mới dữ liệu thành công!.
+</summary>
+</member><member name="P:Sats.My.Resources.frmTLTXUserAuth_VN.AuthIdNotExist">
+	<summary>
+  Looks up a localized string similar to Mã nhóm hoặc người sử dụng không tồn tại.  Vui lòng nhập lại!.
+</summary>
+</member><member name="P:Sats.My.Resources.frmTLTXUserAuth_VN.brpInfo">
+	<summary>
+  Looks up a localized string similar to Phân quyền.
+</summary>
+</member><member name="P:Sats.My.Resources.frmTLTXUserAuth_VN.btnApply">
+	<summary>
+  Looks up a localized string similar to &amp;Chấp nhận.
+</summary>
+</member><member name="P:Sats.My.Resources.frmTLTXUserAuth_VN.btnCancel">
+	<summary>
+  Looks up a localized string similar to &amp;Thoát.
+</summary>
+</member><member name="P:Sats.My.Resources.frmTLTXUserAuth_VN.btnOK">
+	<summary>
+  Looks up a localized string similar to &amp;Chấp nhận.
+</summary>
+</member><member name="P:Sats.My.Resources.frmTLTXUserAuth_VN.EditSuccessful">
+	<summary>
+  Looks up a localized string similar to Cập nhập dữ liệu thành công!.
+</summary>
+</member><member name="P:Sats.My.Resources.frmTLTXUserAuth_VN.EmptyAuthId">
+	<summary>
+  Looks up a localized string similar to Mã nhóm hoặc người sử dụng trống. Vui lòng nhập lại !.
+</summary>
+</member><member name="P:Sats.My.Resources.frmTLTXUserAuth_VN.ERR_SA_TLXUSERAUTH_DUPLICATED">
+	<summary>
+  Looks up a localized string similar to Đã tồn tại phân cấp mức duyệt của nhóm hoặc người sử dụng cho giao dịch này!.
+</summary>
+</member><member name="P:Sats.My.Resources.frmTLTXUserAuth_VN.frmTLTXUserAuth">
+	<summary>
+  Looks up a localized string similar to Phân mức duyệt giao dịch chi tiết theo nhóm người sử dụng.
+</summary>
+</member><member name="P:Sats.My.Resources.frmTLTXUserAuth_VN.grbInfo">
+	<summary>
+  Looks up a localized string similar to Phân cấp giao dịch.
+</summary>
+</member><member name="P:Sats.My.Resources.frmTLTXUserAuth_VN.InitDialogFailed">
+	<summary>
+  Looks up a localized string similar to Không khởi tạo được cửa sổ!.
+</summary>
+</member><member name="P:Sats.My.Resources.frmTLTXUserAuth_VN.lbAuthId">
+	<summary>
+  Looks up a localized string similar to Mã nhóm hoặc người sử dụng.
+</summary>
+</member><member name="P:Sats.My.Resources.frmTLTXUserAuth_VN.lbAuthName">
+	<summary>
+  Looks up a localized string similar to Tên nhóm hoặc người sử dụng.
+</summary>
+</member><member name="P:Sats.My.Resources.frmTLTXUserAuth_VN.lbAuthType">
+	<summary>
+  Looks up a localized string similar to Loại phân cấp.
+</summary>
+</member><member name="P:Sats.My.Resources.frmTLTXUserAuth_VN.lbCaption">
+	<summary>
+  Looks up a localized string similar to Phân mức duyệt giao dịch chi tiết theo nhóm người sử dụng.
+</summary>
+</member><member name="P:Sats.My.Resources.frmTLTXUserAuth_VN.lbCaption0">
+	<summary>
+  Looks up a localized string similar to Phân mức duyệt giao dịch chi tiết theo nhóm người sử dụng.
+</summary>
+</member><member name="P:Sats.My.Resources.frmTLTXUserAuth_VN.lbCaption1">
+	<summary>
+  Looks up a localized string similar to Phân mức duyệt giao dịch chi tiết theo nhóm người sử dụng.
+</summary>
+</member><member name="P:Sats.My.Resources.frmTLTXUserAuth_VN.lbCaption2">
+	<summary>
+  Looks up a localized string similar to Phân mức duyệt giao dịch chi tiết theo nhóm người sử dụng.
+</summary>
+</member><member name="P:Sats.My.Resources.frmTLTXUserAuth_VN.lbCfrId">
+	<summary>
+  Looks up a localized string similar to Duyệt cấp lãnh đạo TTLK.
+</summary>
+</member><member name="P:Sats.My.Resources.frmTLTXUserAuth_VN.lbChkId">
+	<summary>
+  Looks up a localized string similar to Duyệt cấp trưởng TVLK.
+</summary>
+</member><member name="P:Sats.My.Resources.frmTLTXUserAuth_VN.lbModCode">
+	<summary>
+  Looks up a localized string similar to Phân hệ.
+</summary>
+</member><member name="P:Sats.My.Resources.frmTLTXUserAuth_VN.lbNote">
+	<summary>
+  Looks up a localized string similar to (F5 để chọn).
+</summary>
+</member><member name="P:Sats.My.Resources.frmTLTXUserAuth_VN.lbOffId">
+	<summary>
+  Looks up a localized string similar to Duyệt cấp chuyên viên TTLK.
+</summary>
+</member><member name="P:Sats.My.Resources.frmTLTXUserAuth_VN.lbTltx">
+	<summary>
+  Looks up a localized string similar to Giao dịch.
+</summary>
+</member><member name="P:Sats.My.Resources.frmTLTXUserAuth_VN.rbtGroup">
+	<summary>
+  Looks up a localized string similar to Phân cấp theo nhóm.
+</summary>
+</member><member name="P:Sats.My.Resources.frmTLTXUserAuth_VN.rbtUser">
+	<summary>
+  Looks up a localized string similar to Phân cấp theo người dùng.
+</summary>
+</member><member name="P:Sats.My.Resources.frmTLTXUserAuth_VN.SavingFailed">
+	<summary>
+  Looks up a localized string similar to Không thể thêm mới hoặc sửa thông tin!.
+</summary>
+</member><member name="T:Sats.My.Resources.frmTLTXUserAuth_VN">
+	<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member><member name="P:Sats.My.Resources.frmAddMFToTLTX_VN.ResourceManager">
+	<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member><member name="P:Sats.My.Resources.frmAddMFToTLTX_VN.Culture">
+	<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member><member name="P:Sats.My.Resources.frmAddMFToTLTX_VN.btnAdd">
+	<summary>
+  Looks up a localized string similar to 4.
+</summary>
+</member><member name="P:Sats.My.Resources.frmAddMFToTLTX_VN.btnAddAll">
+	<summary>
+  Looks up a localized string similar to 8.
+</summary>
+</member><member name="P:Sats.My.Resources.frmAddMFToTLTX_VN.btnCancel">
+	<summary>
+  Looks up a localized string similar to &amp;Thoát.
+</summary>
+</member><member name="P:Sats.My.Resources.frmAddMFToTLTX_VN.btnConfirm">
+	<summary>
+  Looks up a localized string similar to Xác nhận.
+</summary>
+</member><member name="P:Sats.My.Resources.frmAddMFToTLTX_VN.btnOk">
+	<summary>
+  Looks up a localized string similar to &amp;Chấp nhận.
+</summary>
+</member><member name="P:Sats.My.Resources.frmAddMFToTLTX_VN.btnRemove">
+	<summary>
+  Looks up a localized string similar to 3.
+</summary>
+</member><member name="P:Sats.My.Resources.frmAddMFToTLTX_VN.btnRemoveAll">
+	<summary>
+  Looks up a localized string similar to 7.
+</summary>
+</member><member name="P:Sats.My.Resources.frmAddMFToTLTX_VN.CurrentUser">
+	<summary>
+  Looks up a localized string similar to Không thể bỏ ra NSD hiện thời!.
+</summary>
+</member><member name="P:Sats.My.Resources.frmAddMFToTLTX_VN.EditSuccessful">
+	<summary>
+  Looks up a localized string similar to Cập nhật dữ liệu thành công!.
+</summary>
+</member><member name="P:Sats.My.Resources.frmAddMFToTLTX_VN.EmptyMF">
+	<summary>
+  Looks up a localized string similar to Bạn phải chọn mức phí trước khi gán giao dịch..
+</summary>
+</member><member name="P:Sats.My.Resources.frmAddMFToTLTX_VN.frmAddMFToTLTX">
+	<summary>
+  Looks up a localized string similar to Gán mức tính phí cho giao dịch.
+</summary>
+</member><member name="P:Sats.My.Resources.frmAddMFToTLTX_VN.grbMFToTLTXCD">
+	<summary>
+  Looks up a localized string similar to Thông tin giao dịch.
+</summary>
+</member><member name="P:Sats.My.Resources.frmAddMFToTLTX_VN.InitDialogFailed">
+	<summary>
+  Looks up a localized string similar to Không khởi tạo được cửa sổ!.
+</summary>
+</member><member name="P:Sats.My.Resources.frmAddMFToTLTX_VN.lbCaption">
+	<summary>
+  Looks up a localized string similar to Gán mức tính phí cho giao dịch.
+</summary>
+</member><member name="P:Sats.My.Resources.frmAddMFToTLTX_VN.lbMF">
+	<summary>
+  Looks up a localized string similar to Chọn mức phí.
+</summary>
+</member><member name="P:Sats.My.Resources.frmAddMFToTLTX_VN.lbNote">
+	<summary>
+  Looks up a localized string similar to (F5 để chọn).
+</summary>
+</member><member name="P:Sats.My.Resources.frmAddMFToTLTX_VN.lbTLTXCDInMF">
+	<summary>
+  Looks up a localized string similar to Danh sách GD đã được gán phí:.
+</summary>
+</member><member name="P:Sats.My.Resources.frmAddMFToTLTX_VN.lbTLTXCDNoMF">
+	<summary>
+  Looks up a localized string similar to Danh sách GD chưa được gán phí:.
+</summary>
+</member><member name="P:Sats.My.Resources.frmAddMFToTLTX_VN.MFNotExist">
+	<summary>
+  Looks up a localized string similar to Giao dịch này không tồn tại.
+</summary>
+</member><member name="P:Sats.My.Resources.frmAddMFToTLTX_VN.NothingSelected">
+	<summary>
+  Looks up a localized string similar to Bạn chưa chọn NSD nào!.
+</summary>
+</member><member name="P:Sats.My.Resources.frmAddMFToTLTX_VN.SavingFailed">
+	<summary>
+  Looks up a localized string similar to Đã có lỗi xẩy ra hãy liên hệ với Quản trị hệ thống!.
+</summary>
+</member><member name="T:Sats.My.Resources.frmAddMFToTLTX_VN">
+	<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member><member name="P:Sats.My.Resources.Resources.ResourceManager">
+	<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member><member name="P:Sats.My.Resources.Resources.Culture">
+	<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member><member name="P:Sats.My.Resources.Resources.msobmain_202">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Sats.My.Resources.Resources.wmploc_1171">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="T:Sats.My.Resources.Resources">
+	<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member><member name="P:Sats.My.Resources.frmRGCurr_VN.ResourceManager">
+	<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member><member name="P:Sats.My.Resources.frmRGCurr_VN.Culture">
+	<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member><member name="P:Sats.My.Resources.frmRGCurr_VN.frmRGCurr">
+	<summary>
+  Looks up a localized string similar to Quản lý danh mục tiền tệ.
+</summary>
+</member><member name="T:Sats.My.Resources.frmRGCurr_VN">
+	<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member><member name="P:Sats.My.Resources.frmExportExcelForm_VN.ResourceManager">
+	<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member><member name="P:Sats.My.Resources.frmExportExcelForm_VN.Culture">
+	<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member><member name="P:Sats.My.Resources.frmExportExcelForm_VN.btnBrowse">
+	<summary>
+  Looks up a localized string similar to Browse....
+</summary>
+</member><member name="P:Sats.My.Resources.frmExportExcelForm_VN.btnCancel">
+	<summary>
+  Looks up a localized string similar to &amp;Thoát.
+</summary>
+</member><member name="P:Sats.My.Resources.frmExportExcelForm_VN.btnOk">
+	<summary>
+  Looks up a localized string similar to &amp;Kết xuất.
+</summary>
+</member><member name="P:Sats.My.Resources.frmExportExcelForm_VN.frmExportExcelForm">
+	<summary>
+  Looks up a localized string similar to Export mẫu file excel cho các giao dịch Import..
+</summary>
+</member><member name="P:Sats.My.Resources.frmExportExcelForm_VN.grbInfo">
+	<summary>
+  Looks up a localized string similar to Thông tin.
+</summary>
+</member><member name="P:Sats.My.Resources.frmExportExcelForm_VN.lbCaption">
+	<summary>
+  Looks up a localized string similar to Export mẫu file excel cho các giao dịch Import..
+</summary>
+</member><member name="P:Sats.My.Resources.frmExportExcelForm_VN.lbFileLocation">
+	<summary>
+  Looks up a localized string similar to Địa chỉ mẫu file.
+</summary>
+</member><member name="P:Sats.My.Resources.frmExportExcelForm_VN.lbSysPart">
+	<summary>
+  Looks up a localized string similar to Phân hệ.
+</summary>
+</member><member name="P:Sats.My.Resources.frmExportExcelForm_VN.lbTransCode">
+	<summary>
+  Looks up a localized string similar to Giao dịch.
+</summary>
+</member><member name="P:Sats.My.Resources.frmExportExcelForm_VN.NotInputFileName">
+	<summary>
+  Looks up a localized string similar to Bạn chưa chọn nơi lưu trữ file và tên file.Vui lòng chọn lại..
+</summary>
+</member><member name="P:Sats.My.Resources.frmExportExcelForm_VN.NotIsImportTransaction">
+	<summary>
+  Looks up a localized string similar to Không phải là giao dịch import file nên không thể export mẫu file tương ứng..
+</summary>
+</member><member name="P:Sats.My.Resources.frmExportExcelForm_VN.NoTransaction">
+	<summary>
+  Looks up a localized string similar to Phân hệ này không có giao dịch Import nào! .
+</summary>
+</member><member name="P:Sats.My.Resources.frmExportExcelForm_VN.NotSelectTransaction">
+	<summary>
+  Looks up a localized string similar to Không có giao dịch nào được chọn để export mẫu file..
+</summary>
+</member><member name="T:Sats.My.Resources.frmExportExcelForm_VN">
+	<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member>
+</members>
+</doc>

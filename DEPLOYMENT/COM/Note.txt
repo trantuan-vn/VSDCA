@@ -1,0 +1,6 @@
+Da test ky, chay duoc tren ca x86 va x64.
+moi truong: .Net Framework 2.0 va 3.5
+Add reference dll "BkavCAPlugIn.dll" vao pject can su dung. Coppy 2 dll con lai vao bin.
+
+Bo sung bien String ErrorMessage trong SignClient.
+trong ham LoadCertificate() neu ok return 0 nguoc lai return -1;

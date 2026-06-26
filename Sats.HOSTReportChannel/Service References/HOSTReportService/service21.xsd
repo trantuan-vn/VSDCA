@@ -1,0 +1,166 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns:tns="http://tempuri.org/" elementFormDefault="qualified" targetNamespace="http://tempuri.org/" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:import namespace="http://schemas.datacontract.org/2004/07/Sats.CommonLibrary" />
+  <xs:element name="Connect">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q1="http://schemas.datacontract.org/2004/07/Sats.CommonLibrary" minOccurs="0" name="pv_oClient" nillable="true" type="q1:Client" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="ConnectResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="ConnectResult" type="xs:boolean" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="SendRpt">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="pv_strMessage" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="pv_arrByte" nillable="true" type="xs:base64Binary" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="SendRptResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="SendRptResult" type="xs:long" />
+        <xs:element minOccurs="0" name="pv_strMessage" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="pv_arrByte" nillable="true" type="xs:base64Binary" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="SendExpRpt">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="pv_strMessage" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="SendExpRptResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="SendExpRptResult" type="xs:long" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="FetchRpt">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="pv_strRptDataKey" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="pv_intFrom" type="xs:int" />
+        <xs:element minOccurs="0" name="pv_intTo" type="xs:int" />
+        <xs:element minOccurs="0" name="pv_arrByte" nillable="true" type="xs:base64Binary" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="FetchRptResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="FetchRptResult" type="xs:long" />
+        <xs:element minOccurs="0" name="pv_arrByte" nillable="true" type="xs:base64Binary" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="SendRptCA">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="pv_strMessage" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="pv_arrByte" nillable="true" type="xs:base64Binary" />
+        <xs:element minOccurs="0" name="v_strVSDSignature" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="v_strCAKey" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="pv_strDataHash" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="SendRptCAResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="SendRptCAResult" type="xs:long" />
+        <xs:element minOccurs="0" name="pv_strMessage" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="pv_arrByte" nillable="true" type="xs:base64Binary" />
+        <xs:element minOccurs="0" name="v_strVSDSignature" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="v_strCAKey" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="pv_strDataHash" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="SaveFileRptCA">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="pv_arrByte" nillable="true" type="xs:base64Binary" />
+        <xs:element minOccurs="0" name="v_strVSDSignature" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="v_strClientVSDSignature" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="v_strTLname" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="v_strRptId" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="v_strLocalDir" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="v_strFileName" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="v_strStatus" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="SaveFileRptCAResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="SaveFileRptCAResult" type="xs:long" />
+        <xs:element minOccurs="0" name="v_strLocalDir" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="v_strFileName" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="Disconnect">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q2="http://schemas.datacontract.org/2004/07/Sats.CommonLibrary" minOccurs="0" name="pv_oClient" nillable="true" type="q2:Client" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="DisconnectResponse">
+    <xs:complexType>
+      <xs:sequence />
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="Receive">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="pv_oMessage" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="ReceiveAction">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="pv_oDataSet" nillable="true">
+          <xs:complexType>
+            <xs:annotation>
+              <xs:appinfo>
+                <ActualType Name="DataSet" Namespace="http://schemas.datacontract.org/2004/07/System.Data" xmlns="http://schemas.microsoft.com/2003/10/Serialization/">
+                </ActualType>
+              </xs:appinfo>
+            </xs:annotation>
+            <xs:sequence>
+              <xs:element ref="xs:schema" />
+              <xs:any />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="UserJoin">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q3="http://schemas.datacontract.org/2004/07/Sats.CommonLibrary" minOccurs="0" name="pv_oClient" nillable="true" type="q3:Client" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="UserLeave">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q4="http://schemas.datacontract.org/2004/07/Sats.CommonLibrary" minOccurs="0" name="pv_oClient" nillable="true" type="q4:Client" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

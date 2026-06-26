@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="05b764ff-4910-47e7-8ed7-c46a8dd4c083" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+  <ClientOptions>
+    <GenerateAsynchronousMethods>true</GenerateAsynchronousMethods>
+    <EnableDataBinding>true</EnableDataBinding>
+    <ExcludedTypes />
+    <ImportXmlTypes>false</ImportXmlTypes>
+    <GenerateInternalTypes>false</GenerateInternalTypes>
+    <GenerateMessageContracts>false</GenerateMessageContracts>
+    <NamespaceMappings />
+    <CollectionMappings />
+    <GenerateSerializableTypes>true</GenerateSerializableTypes>
+    <Serializer>Auto</Serializer>
+    <ReferenceAllAssemblies>true</ReferenceAllAssemblies>
+    <ReferencedAssemblies />
+    <ReferencedDataContractTypes />
+    <ServiceContractMappings />
+  </ClientOptions>
+  <MetadataSources>
+    <MetadataSource Address="net.tcp://localhost:8198/mex" Protocol="mex" SourceId="1" />
+  </MetadataSources>
+  <Metadata>
+    <MetadataFile FileName="service.wsdl" MetadataType="Wsdl" ID="351e0742-8f69-4764-89a8-11a0238bef5a" SourceId="1" SourceUrl="net.tcp://localhost:8198/mex" />
+    <MetadataFile FileName="service.xsd" MetadataType="Schema" ID="d3de05c7-f28d-4612-9632-da11e2eea78e" SourceId="1" SourceUrl="net.tcp://localhost:8198/mex" />
+    <MetadataFile FileName="service1.xsd" MetadataType="Schema" ID="d20558cf-72be-4c40-a820-a4a975f0da9d" SourceId="1" SourceUrl="net.tcp://localhost:8198/mex" />
+    <MetadataFile FileName="Sats.CommonLibrary.xsd" MetadataType="Schema" ID="8e593f95-694a-4dc9-942d-dc64170bbc36" SourceId="1" SourceUrl="net.tcp://localhost:8198/mex" />
+    <MetadataFile FileName="BkavCASign1.xsd" MetadataType="Schema" ID="5dd71794-f1ca-4d3c-af1a-1d792ff80505" SourceId="1" SourceUrl="net.tcp://localhost:8198/mex" />
+  </Metadata>
+  <Extensions>
+    <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />
+    <ExtensionFile FileName="configuration.svcinfo" Name="configuration.svcinfo" />
+  </Extensions>
+</ReferenceGroup>
