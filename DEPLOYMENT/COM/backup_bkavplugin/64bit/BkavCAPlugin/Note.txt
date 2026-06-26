@@ -1,6 +1,0 @@
-Trong project, add reference den dll "BkavCAPlugin.dll".
-Coppy 2 dll "BouncyCastle.Crypto.dll" va "Net.Pkcs11.dll" vao muc bin/(debug/release) cua project su dung BkavCAPlugin.dll.
-
-Dll bkavplugin.dll moi su dung thay the cho dll BkavCAPlugin cu. Giu nguyen API va khong can su dung BkavCAPluginC.dll.
-
-De su dung duoc BkavPugin can cai .NET Framework 3.5.
