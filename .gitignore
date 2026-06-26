@@ -51,3 +51,6 @@ packages/
 *.bak
 Thumbs.db
 desktop.ini
+
+# Large archive excluded from repo (exceeds GitHub 100MB limit)
+Sats.App.rar
